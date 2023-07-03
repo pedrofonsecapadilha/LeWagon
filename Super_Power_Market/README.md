@@ -9,7 +9,7 @@
 
 > Projeto realizado como atividade do Bootcamp de Desenvolvimento Web (Full Stack) da Le Wagon #Batch1040 onde precisávamos desenvolver um market place em grupo com a duração de 5 tardes.<br> Aqui, você pode comercializar seus Super Poderes 🐥🧙‍♂️☢️🦸🦹‍♀️
 
-> Link:https://power-market.herokuapp.com/](https://guarded-brook-62587-a5733918174b.herokuapp.com/ <br>
+> Link: https://guarded-brook-62587-a5733918174b.herokuapp.com/ <br>
 > Login: sonic@lewagon.com<br>
 > Password: 123123 <br>
 
