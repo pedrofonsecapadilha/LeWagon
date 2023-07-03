@@ -1,0 +1,15 @@
+<div class="container">
+    <h1><%= @post.title %></h1>
+
+    <% if @post.votes >= 1 %>
+        <% @post.votes.times do %>
+            <small>⭐️</small>
+        <% end %>
+    <% else %>
+        <small>This post doesn't have votes yet ):</small>
+    <% end %>
+
+    <h2><%= @post.url %></h2>
+
+    <a href="/" class="btn btn-secondary">Back</a>
+</div>

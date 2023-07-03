@@ -1,0 +1,55 @@
+<div class="navbar fixed-top navbar-expand-sm navbar-light navbar-lewagon p-1">
+  <div class="container-fluid">
+    <%= link_to super_powers_path, class: "navbar-brand" do %>
+      <%= image_tag "superhero.png" %>
+    <% end %>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        <% if user_signed_in? %>
+          <li class="nav-item active m-2">
+          <%= form_with url: super_powers_path, method: :get, class: 'd-flex' do %>
+          <%= text_field_tag :query, params[:query], class: 'form-control mr-sm-2', placeholder: 'Search' %>
+          <%= submit_tag 'Search', class: 'btn btn-danger my-2 my-sm-0' %>
+          <% end %>
+          </li>
+          <li class="nav-item dropdown m-2">
+          <% if current_user.photo.attached? %>
+            <%= cl_image_tag current_user.photo.key, class: "avatar dropdown-toggle", id: "navbarDropdown", data: { bs_toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <%= link_to "Create New Ad", new_super_power_path, class: "dropdown-item" %>
+              <%= link_to "My Ads", ads_path, class: "dropdown-item" %>
+              <%= link_to "My Shopping", shopping_path, class: "dropdown-item" %>
+              <%= link_to "Profile", user_path(current_user), class: "dropdown-item" %>
+              <%= link_to "Log Out", destroy_user_session_path, data: {turbo_method: :delete}, class: "dropdown-item" %>
+            </div>
+            <% else %>
+             <%= image_tag 'profile.png', class: "avatar dropdown-toggle", id: "navbarDropdown", data: { bs_toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <%= link_to "Create New Ad", new_super_power_path, class: "dropdown-item" %>
+              <%= link_to "My Ads", ads_path, class: "dropdown-item" %>
+              <%= link_to "My Shopping", shopping_path, class: "dropdown-item" %>
+              <%= link_to "Profile", user_path(current_user), class: "dropdown-item" %>
+              <%= link_to "Log Out", destroy_user_session_path, data: {turbo_method: :delete}, class: "dropdown-item" %>
+            </div>
+            <% end %>
+          </li>
+        <% else %>
+          <li class="nav-item active">
+            <%= form_with url: root_path, method: :get, class: 'd-flex' do %>
+              <%= text_field_tag :query, params[:query], class: 'form-control mr-sm-2', placeholder: 'Search' %>
+              <%= submit_tag 'Search', class: 'btn btn-danger my-2 my-sm-0' %>
+            <% end %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "Login", new_user_session_path, class: "nav-link" %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

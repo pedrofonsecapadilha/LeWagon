@@ -1,0 +1,82 @@
+body {
+  margin: auto;
+  background-color: whitesmoke;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 100px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link_edit {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+:link:hover { background: rgb(255, 0, 0); }
+
+@media (max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+    .container {
+    width: 300px;
+  }
+}

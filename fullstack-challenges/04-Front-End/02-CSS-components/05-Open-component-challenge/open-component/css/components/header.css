@@ -1,0 +1,10 @@
+.header{
+  text-align: center;
+}
+
+.header > p {
+  color: black;
+  font-size: small;
+  opacity: 0.70;
+  line-height: 25px;
+}

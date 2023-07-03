@@ -1,0 +1,3448 @@
+Script started on 2023-01-05 14:29:37-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="76" LINES="39"]
+ * Starting PostgreSQL 12 database server       [76G [70G[ OK ]
+[1m[7m%[27m[1m[0m                                                                            ]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib]1;..ping-Cart/lib[0m[27m[24m[J[01;32m➜  [36mlib[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31ms[0m[39m[1m[31ms[1m[31mc[0m[39m[1m[31ms[1m[31mc[1m[31mr[0m[39m[1m[31mr[1m[31me[0m[39m[1m[31me[1m[31me[0m[39m[0m[32ms[0m[32mc[0m[32mr[0m[32me[0m[32me[32mn[39m[?1l>[?2004l
+]2;screen]1;screenCannot make directory '/run/screen': Permission denied
+[1m[7m%[27m[1m[0m                                                                            ]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib]1;..ping-Cart/lib[0m[27m[24m[J[01;31m➜  [36mlib[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31ms[0m[39m[1m[31ms[1m[31me[0m[39m[0m[32ms[0m[32me[32mt[39m[1m[31ms[1m[31me[1m[31mt[1m[31ms[0m[39m[1m[31ms[1m[31mi[0m[39m[0m[4m[32ms[0m[4m[32me[0m[4m[32mt[0m[4m[32ms[0m[4m[32mi[4m[32md[24m[39m[?1l>[?2004l
+]2;setsid]1;setsidsetsid: no command specified
+Try 'setsid --help' for more information.
+[1m[7m%[27m[1m[0m                                                                            ]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib]1;..ping-Cart/lib[0m[27m[24m[J[01;31m➜  [36mlib[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31ms[0m[39m[1m[31ms[1m[31me[0m[39m[1m[31ms[1m[31me[1m[31mr[0m[39m[1m[31mr[1m[31mr[0m[39m[1m[31mr[0m[39m[0m[39m [1m[31ms[1m[31me[0m[39m[0m[39m [0m[32ms[0m[32me[32mt[39m -x[?1l>[?2004l
+]2;set -x]1;set[1m[7m%[27m[1m[0m                                                                            +omz_termsupport_precmd:1> [[ '' != true ]]
++omz_termsupport_precmd:2> title '%15<..<%~%<<' '%n@%m:%~'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%n@%m:%~'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%n@%m:%~\a'
+]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib+title:13> print -Pn '\e]1;%15\<..\<%~%\<\<\a'
+]1;..ping-Cart/lib+_zsh_highlight_main__precmd_hook:3> setopt localoptions
++_zsh_highlight_main__precmd_hook:4> eval '[[ -o warnnestedvar ]]'
++(eval):1> [[ -o warnnestedvar ]]
++_zsh_highlight_main__precmd_hook:8> _zsh_highlight_main__command_type_cache=( ) 
++zsh:4> git_prompt_info
++git_prompt_info:1> dirty=+git_prompt_info:1> parse_git_dirty
++parse_git_dirty:1> local STATUS
++parse_git_dirty:2> local -a FLAGS
++parse_git_dirty:3> FLAGS=( --porcelain ) 
++parse_git_dirty:4> [[+parse_git_dirty:4> __git_prompt_git config --get oh-my-zsh.hide-dirty
++__git_prompt_git:1> GIT_OPTIONAL_LOCKS=0 git config --get oh-my-zsh.hide-dirty
++parse_git_dirty:4> [[ '' != 1 ]]
++parse_git_dirty:5> [[ '' == true ]]
++parse_git_dirty:8> case  (git)
++parse_git_dirty:8> case  (*)
++parse_git_dirty:15> FLAGS+='--ignore-submodules=dirty' 
++parse_git_dirty:18> STATUS=+parse_git_dirty:18> STATUS=+parse_git_dirty:18> tail -n 1
++parse_git_dirty:18> STATUS='?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' 
++parse_git_dirty:20> [[ -n '?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' ]]
++parse_git_dirty:21> echo $'%{\C-[[34m%}) %{\C-[[33m%}✗'
++git_prompt_info:1> dirty=$'%{\C-[[34m%}) %{\C-[[33m%}✗' 
++git_prompt_info:2> __git_ps1 $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} '
++__git_ps1:3> local exit=0
++__git_ps1:4> local pcmode=no
++__git_ps1:5> local detached=no
++__git_ps1:6> local ps1pc_start='\u@\h:\w '
++__git_ps1:7> local ps1pc_end='\$ '
++__git_ps1:8> local printf_format=' (%s)'
++__git_ps1:10> case 1 (2 | 3)
++__git_ps1:10> case 1 (0 | 1)
++__git_ps1:20> printf_format=$'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' 
++__git_ps1:59> local ps1_expanded=yes
++__git_ps1:60> [ -z 5.8 ']'
++__git_ps1:60> [[ -o PROMPT_SUBST ]]
++__git_ps1:61> [ -z '' ']'
++__git_ps1:63> local repo_info rev_parse_exit_code
++__git_ps1:64> repo_info=+__git_ps1:64> git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --short HEAD
++__git_ps1:64> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' 
++__git_ps1:67> rev_parse_exit_code=0 
++__git_ps1:69> [ -z $'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' ']'
++__git_ps1:73> local short_sha=''
++__git_ps1:74> [ 0 '=' 0 ']'
++__git_ps1:75> short_sha=792c7c302 
++__git_ps1:76> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue' 
++__git_ps1:78> local inside_worktree=true
++__git_ps1:79> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse' 
++__git_ps1:80> local bare_repo=false
++__git_ps1:81> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse' 
++__git_ps1:82> local inside_gitdir=false
++__git_ps1:83> local g=/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git
++__git_ps1:85> [ true '=' true ']'
++__git_ps1:86> [ -n '' ']'
++__git_ps1:93> local sparse=''
++__git_ps1:94> [ -z '' ']'
++__git_ps1:95> [ -z '' ']'
++__git_ps1:96> git config --bool core.sparseCheckout
++__git_ps1:96> [ '' '=' true ']'
++__git_ps1:100> local r=''
++__git_ps1:101> local b=''
++__git_ps1:102> local step=''
++__git_ps1:103> local total=''
++__git_ps1:104> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-merge ']'
++__git_ps1:110> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-apply ']'
++__git_ps1:121> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/MERGE_HEAD ']'
++__git_ps1:123> __git_sequencer_status
++__git_sequencer_status:2> local todo
++__git_sequencer_status:3> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/CHERRY_PICK_HEAD
++__git_sequencer_status:7> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/REVERT_HEAD
++__git_sequencer_status:11> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo todo
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo
++__git_sequencer_status:24> return 1
++__git_ps1:125> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/BISECT_LOG ']'
++__git_ps1:129> [ -n '' ']'
++__git_ps1:131> [ -h /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD ']'
++__git_ps1:135> local head=''
++__git_ps1:136> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD head
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD
++__git_eread:2> IFS=$'\C-M\n' +__git_eread:2> read head
++__git_ps1:140> b=refs/heads/master 
++__git_ps1:141> [ 'ref: refs/heads/master' '=' refs/heads/master ']'
++__git_ps1:163> [ -n '' ']'
++__git_ps1:167> local w=''
++__git_ps1:168> local i=''
++__git_ps1:169> local s=''
++__git_ps1:170> local u=''
++__git_ps1:171> local h=''
++__git_ps1:172> local c=''
++__git_ps1:173> local p=''
++__git_ps1:174> local upstream=''
++__git_ps1:176> [ true '=' false ']'
++__git_ps1:182> [ true '=' true ']'
++__git_ps1:183> [ -n '' ']'
++__git_ps1:192> [ -n '' ']'
++__git_ps1:198> [ -n '' ']'
++__git_ps1:205> [ -n '' ']'
++__git_ps1:210> [ -n '' ']'
++__git_ps1:215> local z=' '
++__git_ps1:217> b=master 
++__git_ps1:218> [ no '=' yes ']'
++__git_ps1:224> [ -n '' ']'
++__git_ps1:230> local f=''
++__git_ps1:231> local gitstring=master
++__git_ps1:233> [ no '=' yes ']'
++__git_ps1:241> printf -- $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' master
++__git_ps1:244> return 0
+[0m[27m[24m[J[01;32m➜  [36mlib[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mf[0m[39m[1m[31mf[1m[31mi[0m[39m[1m[31mf[1m[31mi[1m[31mn[0m[39m[0m[32mf[0m[32mi[0m[32mn[32md[39m [4m/[24m [4m/[4me[24m[4me[4mt[24m[4mt[4mc[24m[?1l>[?2004l
++omz_termsupport_preexec:1> [[ '' != true ]]
++omz_termsupport_preexec:3> emulate -L zsh
++omz_termsupport_preexec:4> setopt extended_glob
++omz_termsupport_preexec:7> local -a cmdargs
++omz_termsupport_preexec:8> cmdargs=( find /etc ) 
++omz_termsupport_preexec:10> [[ find = fg ]]
++omz_termsupport_preexec:44> local CMD=find
++omz_termsupport_preexec:45> local LINE='find /etc'
++omz_termsupport_preexec:47> title find '%100>...>find /etc%<<'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%100>...>find /etc%<<'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%100\>...\>find\ /etc%\<\<\a'
+]2;find /etc+title:13> print -Pn '\e]1;find\a'
+]1;find+_zsh_highlight_preexec_hook:2> typeset -g _ZSH_HIGHLIGHT_PRIOR_BUFFER=''
++_zsh_highlight_preexec_hook:3> typeset -gi _ZSH_HIGHLIGHT_PRIOR_CURSOR=''
++zsh:4> find /etc
+/etc
+/etc/services
+/etc/lsb-release
+/etc/vulkan
+/etc/vulkan/explicit_layer.d
+/etc/vulkan/icd.d
+/etc/vulkan/implicit_layer.d
+/etc/protocols
+/etc/rsyslog.conf
+/etc/ltrace.conf
+/etc/systemd
+/etc/systemd/timesyncd.conf
+/etc/systemd/resolved.conf
+/etc/systemd/journald.conf
+/etc/systemd/system
+/etc/systemd/system/iscsi.service
+/etc/systemd/system/getty.target.wants
+/etc/systemd/system/getty.target.wants/getty@tty1.service
+/etc/systemd/system/paths.target.wants
+/etc/systemd/system/paths.target.wants/apport-autoreport.path
+/etc/systemd/system/dbus-org.freedesktop.timesync1.service
+/etc/systemd/system/vmtoolsd.service
+/etc/systemd/system/cloud-final.service.wants
+/etc/systemd/system/cloud-final.service.wants/snapd.seeded.service
+/etc/systemd/system/multipath-tools.service
+/etc/systemd/system/sshd.service
+/etc/systemd/system/sysinit.target.wants
+/etc/systemd/system/sysinit.target.wants/systemd-pstore.service
+/etc/systemd/system/sysinit.target.wants/keyboard-setup.service
+/etc/systemd/system/sysinit.target.wants/lvm2-monitor.service
+/etc/systemd/system/sysinit.target.wants/open-iscsi.service
+/etc/systemd/system/sysinit.target.wants/lvm2-lvmpolld.socket
+/etc/systemd/system/sysinit.target.wants/systemd-timesyncd.service
+/etc/systemd/system/sysinit.target.wants/multipathd.service
+/etc/systemd/system/sysinit.target.wants/setvtrgb.service
+/etc/systemd/system/sysinit.target.wants/blk-availability.service
+/etc/systemd/system/sysinit.target.wants/apparmor.service
+/etc/systemd/system/sysinit.target.wants/finalrd.service
+/etc/systemd/system/multi-user.target.wants
+/etc/systemd/system/multi-user.target.wants/unattended-upgrades.service
+/etc/systemd/system/multi-user.target.wants/pollinate.service
+/etc/systemd/system/multi-user.target.wants/snapd.seeded.service
+/etc/systemd/system/multi-user.target.wants/ondemand.service
+/etc/systemd/system/multi-user.target.wants/systemd-networkd.service
+/etc/systemd/system/multi-user.target.wants/secureboot-db.service
+/etc/systemd/system/multi-user.target.wants/lxd-agent-9p.service
+/etc/systemd/system/multi-user.target.wants/sysstat.service
+/etc/systemd/system/multi-user.target.wants/systemd-resolved.service
+/etc/systemd/system/multi-user.target.wants/lxd-agent.service
+/etc/systemd/system/multi-user.target.wants/postgresql.service
+/etc/systemd/system/multi-user.target.wants/irqbalance.service
+/etc/systemd/system/multi-user.target.wants/rsyslog.service
+/etc/systemd/system/multi-user.target.wants/ufw.service
+/etc/systemd/system/multi-user.target.wants/remote-fs.target
+/etc/systemd/system/multi-user.target.wants/atd.service
+/etc/systemd/system/multi-user.target.wants/dmesg.service
+/etc/systemd/system/multi-user.target.wants/snapd.core-fixup.service
+/etc/systemd/system/multi-user.target.wants/rsync.service
+/etc/systemd/system/multi-user.target.wants/networkd-dispatcher.service
+/etc/systemd/system/multi-user.target.wants/open-vm-tools.service
+/etc/systemd/system/multi-user.target.wants/cron.service
+/etc/systemd/system/multi-user.target.wants/snapd.autoimport.service
+/etc/systemd/system/multi-user.target.wants/console-setup.service
+/etc/systemd/system/multi-user.target.wants/snapd.recovery-chooser-trigger.service
+/etc/systemd/system/multi-user.target.wants/snapd.apparmor.service
+/etc/systemd/system/multi-user.target.wants/snapd.service
+/etc/systemd/system/multi-user.target.wants/ssh.service
+/etc/systemd/system/mdmonitor.service.wants
+/etc/systemd/system/mdmonitor.service.wants/mdcheck_start.timer
+/etc/systemd/system/mdmonitor.service.wants/mdmonitor-oneshot.timer
+/etc/systemd/system/network-online.target.wants
+/etc/systemd/system/network-online.target.wants/systemd-networkd-wait-online.service
+/etc/systemd/system/timers.target.wants
+/etc/systemd/system/timers.target.wants/man-db.timer
+/etc/systemd/system/timers.target.wants/fwupd-refresh.timer
+/etc/systemd/system/timers.target.wants/logrotate.timer
+/etc/systemd/system/timers.target.wants/fstrim.timer
+/etc/systemd/system/timers.target.wants/snapd.snap-repair.timer
+/etc/systemd/system/timers.target.wants/e2scrub_all.timer
+/etc/systemd/system/timers.target.wants/apt-daily.timer
+/etc/systemd/system/timers.target.wants/motd-news.timer
+/etc/systemd/system/timers.target.wants/apt-daily-upgrade.timer
+/etc/systemd/system/final.target.wants
+/etc/systemd/system/final.target.wants/snapd.system-shutdown.service
+/etc/systemd/system/graphical.target.wants
+/etc/systemd/system/graphical.target.wants/accounts-daemon.service
+/etc/systemd/system/syslog.service
+/etc/systemd/system/dbus-org.freedesktop.resolve1.service
+/etc/systemd/system/sockets.target.wants
+/etc/systemd/system/sockets.target.wants/apport-forward.socket
+/etc/systemd/system/sockets.target.wants/snapd.socket
+/etc/systemd/system/sockets.target.wants/uuidd.socket
+/etc/systemd/system/sockets.target.wants/multipathd.socket
+/etc/systemd/system/sockets.target.wants/iscsid.socket
+/etc/systemd/system/sockets.target.wants/dm-event.socket
+/etc/systemd/system/sockets.target.wants/systemd-networkd.socket
+/etc/systemd/system/cloud-init.target.wants
+/etc/systemd/system/cloud-init.target.wants/cloud-config.service
+/etc/systemd/system/cloud-init.target.wants/cloud-init.service
+/etc/systemd/system/cloud-init.target.wants/cloud-init-local.service
+/etc/systemd/system/cloud-init.target.wants/cloud-final.service
+/etc/systemd/system/default.target.wants
+/etc/systemd/system/default.target.wants/e2scrub_reap.service
+/etc/systemd/system/open-vm-tools.service.requires
+/etc/systemd/system/open-vm-tools.service.requires/vgauth.service
+/etc/systemd/system.conf
+/etc/systemd/logind.conf
+/etc/systemd/pstore.conf
+/etc/systemd/user
+/etc/systemd/user/sockets.target.wants
+/etc/systemd/user/sockets.target.wants/gpg-agent.socket
+/etc/systemd/user/sockets.target.wants/gpg-agent-extra.socket
+/etc/systemd/user/sockets.target.wants/pk-debconf-helper.socket
+/etc/systemd/user/sockets.target.wants/gpg-agent-ssh.socket
+/etc/systemd/user/sockets.target.wants/dirmngr.socket
+/etc/systemd/user/sockets.target.wants/gpg-agent-browser.socket
+/etc/systemd/user.conf
+/etc/systemd/sleep.conf
+/etc/systemd/networkd.conf
+/etc/systemd/network
+/etc/byobu
+/etc/byobu/backend
+/etc/byobu/socketdir
+/etc/cron.hourly
+/etc/cron.hourly/.placeholder
+/etc/initramfs-tools
+/etc/initramfs-tools/update-initramfs.conf
+/etc/initramfs-tools/initramfs.conf
+/etc/initramfs-tools/scripts
+/etc/initramfs-tools/scripts/panic
+/etc/initramfs-tools/scripts/init-top
+/etc/initramfs-tools/scripts/local-premount
+/etc/initramfs-tools/scripts/local-bottom
+/etc/initramfs-tools/scripts/nfs-premount
+/etc/initramfs-tools/scripts/nfs-top
+/etc/initramfs-tools/scripts/nfs-bottom
+/etc/initramfs-tools/scripts/init-bottom
+/etc/initramfs-tools/scripts/init-premount
+/etc/initramfs-tools/scripts/local-top
+/etc/initramfs-tools/hooks
+/etc/initramfs-tools/conf.d
+/etc/initramfs-tools/modules
+/etc/python3.8
+/etc/python3.8/sitecustomize.py
+/etc/inputrc
+/etc/gai.conf
+/etc/crontab
+/etc/pollinate
+/etc/pollinate/entropy.ubuntu.com.pem
+/etc/newt
+/etc/newt/palette.original
+/etc/newt/palette.ubuntu
+/etc/newt/palette
+/etc/dpkg
+/etc/dpkg/dpkg.cfg
+/etc/dpkg/origins
+/etc/dpkg/origins/default
+/etc/dpkg/origins/debian
+/etc/dpkg/origins/ubuntu
+/etc/dpkg/shlibs.default
+/etc/dpkg/shlibs.override
+/etc/dpkg/dpkg.cfg.d
+/etc/popularity-contest.conf
+/etc/xattr.conf
+/etc/apparmor.d
+/etc/apparmor.d/tunables
+/etc/apparmor.d/tunables/home
+/etc/apparmor.d/tunables/alias
+/etc/apparmor.d/tunables/kernelvars
+/etc/apparmor.d/tunables/home.d
+/etc/apparmor.d/tunables/home.d/site.local
+/etc/apparmor.d/tunables/home.d/ubuntu
+/etc/apparmor.d/tunables/multiarch.d
+/etc/apparmor.d/tunables/multiarch.d/site.local
+/etc/apparmor.d/tunables/xdg-user-dirs
+/etc/apparmor.d/tunables/dovecot
+/etc/apparmor.d/tunables/share
+/etc/apparmor.d/tunables/apparmorfs
+/etc/apparmor.d/tunables/sys
+/etc/apparmor.d/tunables/multiarch
+/etc/apparmor.d/tunables/xdg-user-dirs.d
+/etc/apparmor.d/tunables/xdg-user-dirs.d/site.local
+/etc/apparmor.d/tunables/proc
+/etc/apparmor.d/tunables/securityfs
+/etc/apparmor.d/tunables/global
+/etc/apparmor.d/usr.sbin.rsyslogd
+/etc/apparmor.d/force-complain
+/etc/apparmor.d/lsb_release
+/etc/apparmor.d/usr.sbin.tcpdump
+/etc/apparmor.d/usr.lib.snapd.snap-confine.real
+/etc/apparmor.d/usr.bin.man
+/etc/apparmor.d/disable
+/etc/apparmor.d/disable/usr.sbin.rsyslogd
+/etc/apparmor.d/nvidia_modprobe
+/etc/apparmor.d/abstractions
+/etc/apparmor.d/abstractions/vulkan
+/etc/apparmor.d/abstractions/ruby
+/etc/apparmor.d/abstractions/user-write
+/etc/apparmor.d/abstractions/ssl_keys
+/etc/apparmor.d/abstractions/wayland
+/etc/apparmor.d/abstractions/opencl-intel
+/etc/apparmor.d/abstractions/ubuntu-unity7-messaging
+/etc/apparmor.d/abstractions/gnupg
+/etc/apparmor.d/abstractions/dri-enumerate
+/etc/apparmor.d/abstractions/opencl-mesa
+/etc/apparmor.d/abstractions/aspell
+/etc/apparmor.d/abstractions/ldapclient
+/etc/apparmor.d/abstractions/opencl-nvidia
+/etc/apparmor.d/abstractions/p11-kit
+/etc/apparmor.d/abstractions/bash
+/etc/apparmor.d/abstractions/opencl-pocl
+/etc/apparmor.d/abstractions/dbus-strict
+/etc/apparmor.d/abstractions/qt5
+/etc/apparmor.d/abstractions/kde-language-write
+/etc/apparmor.d/abstractions/dconf
+/etc/apparmor.d/abstractions/ssl_certs
+/etc/apparmor.d/abstractions/consoles
+/etc/apparmor.d/abstractions/svn-repositories
+/etc/apparmor.d/abstractions/ubuntu-email
+/etc/apparmor.d/abstractions/xad
+/etc/apparmor.d/abstractions/ubuntu-console-email
+/etc/apparmor.d/abstractions/dbus-accessibility-strict
+/etc/apparmor.d/abstractions/ubuntu-media-players
+/etc/apparmor.d/abstractions/ubuntu-gnome-terminal
+/etc/apparmor.d/abstractions/recent-documents-write
+/etc/apparmor.d/abstractions/dbus-session
+/etc/apparmor.d/abstractions/nvidia
+/etc/apparmor.d/abstractions/nameservice
+/etc/apparmor.d/abstractions/enchant
+/etc/apparmor.d/abstractions/postfix-common
+/etc/apparmor.d/abstractions/xdg-desktop
+/etc/apparmor.d/abstractions/video
+/etc/apparmor.d/abstractions/audio
+/etc/apparmor.d/abstractions/php
+/etc/apparmor.d/abstractions/fcitx-strict
+/etc/apparmor.d/abstractions/ubuntu-helpers
+/etc/apparmor.d/abstractions/openssl
+/etc/apparmor.d/abstractions/dovecot-common
+/etc/apparmor.d/abstractions/private-files
+/etc/apparmor.d/abstractions/base
+/etc/apparmor.d/abstractions/php5
+/etc/apparmor.d/abstractions/ibus
+/etc/apparmor.d/abstractions/mesa
+/etc/apparmor.d/abstractions/kde-icon-cache-write
+/etc/apparmor.d/abstractions/mysql
+/etc/apparmor.d/abstractions/authentication
+/etc/apparmor.d/abstractions/kerberosclient
+/etc/apparmor.d/abstractions/mir
+/etc/apparmor.d/abstractions/smbpass
+/etc/apparmor.d/abstractions/ubuntu-bittorrent-clients
+/etc/apparmor.d/abstractions/opencl
+/etc/apparmor.d/abstractions/user-mail
+/etc/apparmor.d/abstractions/libpam-systemd
+/etc/apparmor.d/abstractions/dbus-accessibility
+/etc/apparmor.d/abstractions/likewise
+/etc/apparmor.d/abstractions/ubuntu-konsole
+/etc/apparmor.d/abstractions/private-files-strict
+/etc/apparmor.d/abstractions/gnome
+/etc/apparmor.d/abstractions/wutmp
+/etc/apparmor.d/abstractions/fonts
+/etc/apparmor.d/abstractions/dbus
+/etc/apparmor.d/abstractions/dbus-session-strict
+/etc/apparmor.d/abstractions/apache2-common
+/etc/apparmor.d/abstractions/ubuntu-browsers.d
+/etc/apparmor.d/abstractions/ubuntu-browsers.d/ubuntu-integration
+/etc/apparmor.d/abstractions/ubuntu-browsers.d/mailto
+/etc/apparmor.d/abstractions/ubuntu-browsers.d/productivity
+/etc/apparmor.d/abstractions/ubuntu-browsers.d/user-files
+/etc/apparmor.d/abstractions/ubuntu-browsers.d/multimedia
+/etc/apparmor.d/abstractions/ubuntu-browsers.d/java
+/etc/apparmor.d/abstractions/ubuntu-browsers.d/text-editors
+/etc/apparmor.d/abstractions/ubuntu-browsers.d/ubuntu-integration-xul
+/etc/apparmor.d/abstractions/ubuntu-browsers.d/plugins-common
+/etc/apparmor.d/abstractions/ubuntu-browsers.d/kde
+/etc/apparmor.d/abstractions/ubuntu-unity7-base
+/etc/apparmor.d/abstractions/ubuntu-xterm
+/etc/apparmor.d/abstractions/cups-client
+/etc/apparmor.d/abstractions/opencl-common
+/etc/apparmor.d/abstractions/perl
+/etc/apparmor.d/abstractions/ubuntu-unity7-launcher
+/etc/apparmor.d/abstractions/ubuntu-browsers
+/etc/apparmor.d/abstractions/kde-globals-write
+/etc/apparmor.d/abstractions/python
+/etc/apparmor.d/abstractions/user-manpages
+/etc/apparmor.d/abstractions/qt5-settings-write
+/etc/apparmor.d/abstractions/X
+/etc/apparmor.d/abstractions/web-data
+/etc/apparmor.d/abstractions/fcitx
+/etc/apparmor.d/abstractions/orbit2
+/etc/apparmor.d/abstractions/mozc
+/etc/apparmor.d/abstractions/user-download
+/etc/apparmor.d/abstractions/nis
+/etc/apparmor.d/abstractions/samba
+/etc/apparmor.d/abstractions/dri-common
+/etc/apparmor.d/abstractions/ubuntu-feed-readers
+/etc/apparmor.d/abstractions/kde
+/etc/apparmor.d/abstractions/ubuntu-console-browsers
+/etc/apparmor.d/abstractions/apparmor_api
+/etc/apparmor.d/abstractions/apparmor_api/change_profile
+/etc/apparmor.d/abstractions/apparmor_api/is_enabled
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/etc/apparmor.d/abstractions/apparmor_api/examine
+/etc/apparmor.d/abstractions/apparmor_api/find_mountpoint
+/etc/apparmor.d/abstractions/mdns
+/etc/apparmor.d/abstractions/user-tmp
+/etc/apparmor.d/abstractions/winbind
+/etc/apparmor.d/abstractions/freedesktop.org
+/etc/apparmor.d/abstractions/qt5-compose-cache-write
+/etc/apparmor.d/sbin.dhclient
+/etc/apparmor.d/local
+/etc/apparmor.d/local/usr.sbin.rsyslogd
+/etc/apparmor.d/local/lsb_release
+/etc/apparmor.d/local/usr.sbin.tcpdump
+/etc/apparmor.d/local/usr.lib.snapd.snap-confine.real
+/etc/apparmor.d/local/usr.bin.man
+/etc/apparmor.d/local/nvidia_modprobe
+/etc/apparmor.d/local/sbin.dhclient
+/etc/apparmor.d/local/README
+/etc/group-
+/etc/apport
+/etc/apport/blacklist.d
+/etc/apport/blacklist.d/apport
+/etc/apport/blacklist.d/README.blacklist
+/etc/apport/crashdb.conf
+/etc/subuid-
+/etc/legal
+/etc/cloud
+/etc/cloud/templates
+/etc/cloud/templates/chrony.conf.ubuntu.tmpl
+/etc/cloud/templates/ntp.conf.sles.tmpl
+/etc/cloud/templates/ntp.conf.fedora.tmpl
+/etc/cloud/templates/hosts.suse.tmpl
+/etc/cloud/templates/hosts.freebsd.tmpl
+/etc/cloud/templates/chef_client.rb.tmpl
+/etc/cloud/templates/chrony.conf.debian.tmpl
+/etc/cloud/templates/ntp.conf.ubuntu.tmpl
+/etc/cloud/templates/chrony.conf.rhel.tmpl
+/etc/cloud/templates/sources.list.debian.tmpl
+/etc/cloud/templates/ntp.conf.debian.tmpl
+/etc/cloud/templates/ntp.conf.rhel.tmpl
+/etc/cloud/templates/sources.list.ubuntu.tmpl
+/etc/cloud/templates/hosts.redhat.tmpl
+/etc/cloud/templates/timesyncd.conf.tmpl
+/etc/cloud/templates/chrony.conf.fedora.tmpl
+/etc/cloud/templates/hosts.debian.tmpl
+/etc/cloud/templates/chrony.conf.opensuse.tmpl
+/etc/cloud/templates/resolv.conf.tmpl
+/etc/cloud/templates/ntp.conf.opensuse.tmpl
+/etc/cloud/templates/chrony.conf.sles.tmpl
+/etc/cloud/cloud.cfg
+/etc/cloud/build.info
+/etc/cloud/cloud.cfg.d
+/etc/cloud/cloud.cfg.d/05_logging.cfg
+/etc/cloud/cloud.cfg.d/90_dpkg.cfg
+/etc/cloud/cloud.cfg.d/README
+/etc/rcS.d
+/etc/rcS.d/S01iscsid
+/etc/rcS.d/S01cryptdisks
+/etc/rcS.d/S01kmod
+/etc/rcS.d/S01lvm2
+/etc/rcS.d/S01plymouth-log
+/etc/rcS.d/S01udev
+/etc/rcS.d/S01apparmor
+/etc/rcS.d/S01keyboard-setup.sh
+/etc/rcS.d/S01screen-cleanup
+/etc/rcS.d/S01ufw
+/etc/rcS.d/S01procps
+/etc/rcS.d/S01open-iscsi
+/etc/rcS.d/S01x11-common
+/etc/rcS.d/S01cryptdisks-early
+/etc/sensors3.conf
+/etc/rc5.d
+/etc/rc5.d/S01postgresql
+/etc/rc5.d/S01atd
+/etc/rc5.d/S01multipath-tools
+/etc/rc5.d/S01plymouth
+/etc/rc5.d/S01apport
+/etc/rc5.d/S01rsync
+/etc/rc5.d/S01lvm2-lvmpolld
+/etc/rc5.d/S01dbus
+/etc/rc5.d/S01open-vm-tools
+/etc/rc5.d/S01unattended-upgrades
+/etc/rc5.d/S01rsyslog
+/etc/rc5.d/S01cron
+/etc/rc5.d/S01sysstat
+/etc/rc5.d/S01irqbalance
+/etc/rc5.d/S01ssh
+/etc/rc5.d/S01console-setup.sh
+/etc/rc5.d/S01uuidd
+/etc/ec2_version
+/etc/rc4.d
+/etc/rc4.d/S01postgresql
+/etc/rc4.d/S01atd
+/etc/rc4.d/S01multipath-tools
+/etc/rc4.d/S01plymouth
+/etc/rc4.d/S01apport
+/etc/rc4.d/S01rsync
+/etc/rc4.d/S01lvm2-lvmpolld
+/etc/rc4.d/S01dbus
+/etc/rc4.d/S01open-vm-tools
+/etc/rc4.d/S01unattended-upgrades
+/etc/rc4.d/S01rsyslog
+/etc/rc4.d/S01cron
+/etc/rc4.d/S01sysstat
+/etc/rc4.d/S01irqbalance
+/etc/rc4.d/S01ssh
+/etc/rc4.d/S01console-setup.sh
+/etc/rc4.d/S01uuidd
+/etc/console-setup
+/etc/console-setup/compose.CP1255.inc
+/etc/console-setup/compose.TIS-620.inc
+/etc/console-setup/compose.CP1251.inc
+/etc/console-setup/compose.ISO-8859-9.inc
+/etc/console-setup/ISO-8859-1.acm
+/etc/console-setup/compose.KOI8-U.inc
+/etc/console-setup/compose.KOI8-R.inc
+/etc/console-setup/compose.ARMSCII-8.inc
+/etc/console-setup/compose.CP1256.inc
+/etc/console-setup/compose.ISO-8859-3.inc
+/etc/console-setup/compose.ISO-8859-7.inc
+/etc/console-setup/compose.ISIRI-3342.inc
+/etc/console-setup/compose.VISCII.inc
+/etc/console-setup/compose.ISO-8859-16.inc
+/etc/console-setup/cached_UTF-8_del.kmap.gz
+/etc/console-setup/compose.ISO-8859-2.inc
+/etc/console-setup/compose.ISO-8859-14.inc
+/etc/console-setup/remap.inc
+/etc/console-setup/compose.ISO-8859-4.inc
+/etc/console-setup/vtrgb.vga
+/etc/console-setup/compose.ISO-8859-10.inc
+/etc/console-setup/vtrgb
+/etc/console-setup/cached_ISO-8859-1_del.kmap.gz
+/etc/console-setup/Uni2-Fixed16.psf.gz
+/etc/console-setup/compose.GEORGIAN-PS.inc
+/etc/console-setup/compose.ISO-8859-6.inc
+/etc/console-setup/cached_setup_terminal.sh
+/etc/console-setup/cached_Uni2-Fixed16.psf.gz
+/etc/console-setup/compose.GEORGIAN-ACADEMY.inc
+/etc/console-setup/compose.IBM1133.inc
+/etc/console-setup/compose.ISO-8859-5.inc
+/etc/console-setup/cached_setup_font.sh
+/etc/console-setup/compose.ISO-8859-15.inc
+/etc/console-setup/compose.ISO-8859-11.inc
+/etc/console-setup/compose.ISO-8859-13.inc
+/etc/console-setup/compose.ISO-8859-8.inc
+/etc/console-setup/cached_ISO-8859-1.acm.gz
+/etc/console-setup/compose.ISO-8859-1.inc
+/etc/console-setup/cached_setup_keyboard.sh
+/etc/machine-id
+/etc/fwupd
+/etc/fwupd/upower.conf
+/etc/fwupd/thunderbolt.conf
+/etc/fwupd/remotes.d
+/etc/fwupd/remotes.d/lvfs-testing.conf
+/etc/fwupd/remotes.d/dell-esrt.conf
+/etc/fwupd/remotes.d/vendor.conf
+/etc/fwupd/remotes.d/vendor-directory.conf
+/etc/fwupd/remotes.d/lvfs.conf
+/etc/fwupd/uefi.conf
+/etc/fwupd/daemon.conf
+/etc/fwupd/redfish.conf
+/etc/dbus-1
+/etc/dbus-1/system.d
+/etc/dbus-1/system.d/com.ubuntu.LanguageSelector.conf
+/etc/dbus-1/system.d/org.freedesktop.Accounts.conf
+/etc/dbus-1/system.d/com.ubuntu.SoftwareProperties.conf
+/etc/dbus-1/system.d/org.freedesktop.PackageKit.conf
+/etc/dbus-1/session.d
+/etc/networkd-dispatcher
+/etc/networkd-dispatcher/degraded.d
+/etc/networkd-dispatcher/dormant.d
+/etc/networkd-dispatcher/carrier.d
+/etc/networkd-dispatcher/routable.d
+/etc/networkd-dispatcher/off.d
+/etc/networkd-dispatcher/no-carrier.d
+/etc/rc6.d
+/etc/rc6.d/K01postgresql
+/etc/rc6.d/K01open-iscsi
+/etc/rc6.d/K01unattended-upgrades
+/etc/rc6.d/K01cryptdisks-early
+/etc/rc6.d/K01open-vm-tools
+/etc/rc6.d/K01multipath-tools
+/etc/rc6.d/K01iscsid
+/etc/rc6.d/K01rsyslog
+/etc/rc6.d/K01cryptdisks
+/etc/rc6.d/K01plymouth
+/etc/rc6.d/K01atd
+/etc/rc6.d/K01uuidd
+/etc/rc6.d/K01lvm2-lvmpolld
+/etc/rc6.d/K01udev
+/etc/rc6.d/K01irqbalance
+/etc/ld.so.conf
+/etc/overlayroot.conf
+/etc/nanorc
+/etc/wgetrc
+/etc/modprobe.d
+/etc/modprobe.d/blacklist-ath_pci.conf
+/etc/modprobe.d/iwlwifi.conf
+/etc/modprobe.d/mdadm.conf
+/etc/modprobe.d/blacklist.conf
+/etc/modprobe.d/blacklist-rare-network.conf
+/etc/modprobe.d/blacklist-framebuffer.conf
+/etc/modprobe.d/blacklist-firewire.conf
+/etc/multipath.conf
+/etc/hosts.deny
+/etc/adduser.conf
+/etc/polkit-1
+/etc/polkit-1/localauthority.conf.d
+/etc/polkit-1/localauthority.conf.d/50-localauthority.conf
+/etc/polkit-1/localauthority.conf.d/51-ubuntu-admin.conf
+/etc/polkit-1/localauthority
+find: ‘/etc/polkit-1/localauthority’: Permission denied
+/etc/lvm
+/etc/lvm/lvmlocal.conf
+/etc/lvm/profile
+/etc/lvm/profile/command_profile_template.profile
+/etc/lvm/profile/cache-mq.profile
+/etc/lvm/profile/cache-smq.profile
+/etc/lvm/profile/metadata_profile_template.profile
+/etc/lvm/profile/vdo-small.profile
+/etc/lvm/profile/lvmdbusd.profile
+/etc/lvm/profile/thin-generic.profile
+/etc/lvm/profile/thin-performance.profile
+/etc/lvm/lvm.conf
+/etc/calendar
+/etc/calendar/default
+/etc/subuid
+/etc/ucf.conf
+/etc/rc0.d
+/etc/rc0.d/K01postgresql
+/etc/rc0.d/K01open-iscsi
+/etc/rc0.d/K01unattended-upgrades
+/etc/rc0.d/K01cryptdisks-early
+/etc/rc0.d/K01open-vm-tools
+/etc/rc0.d/K01multipath-tools
+/etc/rc0.d/K01iscsid
+/etc/rc0.d/K01rsyslog
+/etc/rc0.d/K01cryptdisks
+/etc/rc0.d/K01plymouth
+/etc/rc0.d/K01atd
+/etc/rc0.d/K01uuidd
+/etc/rc0.d/K01lvm2-lvmpolld
+/etc/rc0.d/K01udev
+/etc/rc0.d/K01irqbalance
+/etc/dconf
+/etc/dconf/db
+/etc/magic.mime
+/etc/fuse.conf
+/etc/vdpau_wrapper.cfg
+/etc/vim
+/etc/vim/vimrc.tiny
+/etc/vim/vimrc
+/etc/manpath.config
+/etc/rmt
+/etc/apt
+/etc/apt/sources.list
+/etc/apt/sources.list.d
+/etc/apt/sources.list.d/github-cli.list
+/etc/apt/auth.conf.d
+/etc/apt/apt.conf.d
+/etc/apt/apt.conf.d/70debconf
+/etc/apt/apt.conf.d/20archive
+/etc/apt/apt.conf.d/15update-stamp
+/etc/apt/apt.conf.d/50command-not-found
+/etc/apt/apt.conf.d/50unattended-upgrades
+/etc/apt/apt.conf.d/20auto-upgrades
+/etc/apt/apt.conf.d/20packagekit
+/etc/apt/apt.conf.d/10periodic
+/etc/apt/apt.conf.d/01autoremove
+/etc/apt/apt.conf.d/01autoremove-postgresql
+/etc/apt/apt.conf.d/01autoremove-kernels
+/etc/apt/apt.conf.d/01-vendor-ubuntu
+/etc/apt/apt.conf.d/20snapd.conf
+/etc/apt/apt.conf.d/99update-notifier
+/etc/apt/preferences.d
+/etc/apt/trusted.gpg.d
+/etc/apt/trusted.gpg.d/ubuntu-keyring-2012-archive.gpg
+/etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg
+/etc/apt/trusted.gpg.d/ubuntu-keyring-2018-archive.gpg
+/etc/apparmor
+/etc/apparmor/parser.conf
+/etc/apparmor/init
+/etc/apparmor/init/network-interface-security
+/etc/apparmor/init/network-interface-security/sbin.dhclient
+/etc/opt
+/etc/netplan
+/etc/resolv.conf
+/etc/os-release
+/etc/update-manager
+/etc/update-manager/release-upgrades
+/etc/update-manager/meta-release
+/etc/update-manager/release-upgrades.d
+/etc/iscsi
+/etc/iscsi/iscsid.conf
+/etc/iscsi/initiatorname.iscsi
+/etc/hosts
+/etc/nsswitch.conf
+/etc/libaudit.conf
+/etc/python3
+/etc/python3/debian_config
+/etc/locale.alias
+/etc/zsh
+/etc/zsh/newuser.zshrc.recommended
+/etc/zsh/zlogin
+/etc/zsh/zshrc
+/etc/zsh/zprofile
+/etc/zsh/zshenv
+/etc/zsh/zlogout
+/etc/ca-certificates.conf
+/etc/localtime
+/etc/sudoers
+/etc/iproute2
+/etc/iproute2/bpf_pinning
+/etc/iproute2/rt_tables
+/etc/iproute2/rt_realms
+/etc/iproute2/rt_tables.d
+/etc/iproute2/rt_tables.d/README
+/etc/iproute2/rt_scopes
+/etc/iproute2/ematch_map
+/etc/iproute2/group
+/etc/iproute2/rt_protos
+/etc/iproute2/nl_protos
+/etc/iproute2/rt_protos.d
+/etc/iproute2/rt_protos.d/README
+/etc/iproute2/rt_dsfield
+/etc/shadow-
+/etc/modules-load.d
+/etc/modules-load.d/modules.conf
+/etc/X11
+/etc/X11/Xreset
+/etc/X11/Xsession.options
+/etc/X11/app-defaults
+/etc/X11/app-defaults/Xmessage-color
+/etc/X11/app-defaults/XTerm
+/etc/X11/app-defaults/Editres-color
+/etc/X11/app-defaults/KOI8RXTerm
+/etc/X11/app-defaults/Editres
+/etc/X11/app-defaults/UXTerm-color
+/etc/X11/app-defaults/Viewres-color
+/etc/X11/app-defaults/Xmessage
+/etc/X11/app-defaults/Xfd
+/etc/X11/app-defaults/Viewres
+/etc/X11/app-defaults/UXTerm
+/etc/X11/app-defaults/XTerm-color
+/etc/X11/app-defaults/XFontSel
+/etc/X11/app-defaults/KOI8RXTerm-color
+/etc/X11/Xsession
+/etc/X11/Xsession.d
+/etc/X11/Xsession.d/90x11-common_ssh-agent
+/etc/X11/Xsession.d/99x11-common_start
+/etc/X11/Xsession.d/95dbus_update-activation-env
+/etc/X11/Xsession.d/75dbus_dbus-launch
+/etc/X11/Xsession.d/60x11-common_xdg_path
+/etc/X11/Xsession.d/60x11-common_localhost
+/etc/X11/Xsession.d/90gpg-agent
+/etc/X11/Xsession.d/30x11-common_xresources
+/etc/X11/Xsession.d/20dbus_xdg-runtime
+/etc/X11/Xsession.d/40x11-common_xsessionrc
+/etc/X11/Xsession.d/35x11-common_xhost-local
+/etc/X11/Xsession.d/20x11-common_process-args
+/etc/X11/Xsession.d/50x11-common_determine-startup
+/etc/X11/Xreset.d
+/etc/X11/Xreset.d/README
+/etc/X11/Xresources
+/etc/X11/Xresources/x11-common
+/etc/X11/rgb.txt
+/etc/X11/xkb
+/etc/terminfo
+/etc/terminfo/README
+/etc/overlayroot.local.conf
+/etc/binfmt.d
+/etc/passwd
+/etc/screenrc
+/etc/bash.bashrc
+/etc/deluser.conf
+/etc/mime.types
+/etc/libpaper.d
+/etc/timezone
+/etc/rsyslog.d
+/etc/rsyslog.d/20-ufw.conf
+/etc/rsyslog.d/50-default.conf
+/etc/rsyslog.d/21-cloudinit.conf
+/etc/sudoers.d
+/etc/sudoers.d/99-snapd.conf
+/etc/sudoers.d/postgresql
+/etc/sudoers.d/README
+/etc/tmpfiles.d
+/etc/tmpfiles.d/screen-cleanup.conf
+/etc/sensors.d
+/etc/sensors.d/.placeholder
+/etc/init.d
+/etc/init.d/procps
+/etc/init.d/apport
+/etc/init.d/atd
+/etc/init.d/hwclock.sh
+/etc/init.d/rsync
+/etc/init.d/lvm2
+/etc/init.d/lvm2-lvmpolld
+/etc/init.d/plymouth
+/etc/init.d/apparmor
+/etc/init.d/x11-common
+/etc/init.d/irqbalance
+/etc/init.d/iscsid
+/etc/init.d/cryptdisks
+/etc/init.d/cron
+/etc/init.d/cryptdisks-early
+/etc/init.d/open-vm-tools
+/etc/init.d/postgresql
+/etc/init.d/uuidd
+/etc/init.d/keyboard-setup.sh
+/etc/init.d/sysstat
+/etc/init.d/unattended-upgrades
+/etc/init.d/dbus
+/etc/init.d/ufw
+/etc/init.d/open-iscsi
+/etc/init.d/multipath-tools
+/etc/init.d/kmod
+/etc/init.d/console-setup.sh
+/etc/init.d/plymouth-log
+/etc/init.d/rsyslog
+/etc/init.d/screen-cleanup
+/etc/init.d/udev
+/etc/init.d/ssh
+/etc/dhcp
+/etc/dhcp/dhclient-enter-hooks.d
+/etc/dhcp/dhclient-enter-hooks.d/resolved
+/etc/dhcp/dhclient-enter-hooks.d/debug
+/etc/dhcp/dhclient.conf
+/etc/dhcp/dhclient-exit-hooks.d
+/etc/dhcp/dhclient-exit-hooks.d/rfc3442-classless-routes
+/etc/dhcp/dhclient-exit-hooks.d/debug
+/etc/dhcp/dhclient-exit-hooks.d/timesyncd
+/etc/dhcp/dhclient-exit-hooks.d/hook-dhclient
+/etc/dhcp/debug
+/etc/sysctl.d
+/etc/sysctl.d/10-ptrace.conf
+/etc/sysctl.d/30-postgresql-shm.conf
+/etc/sysctl.d/10-link-restrictions.conf
+/etc/sysctl.d/99-sysctl.conf
+/etc/sysctl.d/10-magic-sysrq.conf
+/etc/sysctl.d/10-ipv6-privacy.conf
+/etc/sysctl.d/10-zeropage.conf
+/etc/sysctl.d/10-kernel-hardening.conf
+/etc/sysctl.d/99-cloudimg-ipv6.conf
+/etc/sysctl.d/README.sysctl
+/etc/sysctl.d/10-network-security.conf
+/etc/sysctl.d/10-console-messages.conf
+/etc/mtab
+/etc/pulse
+/etc/pulse/client.conf.d
+/etc/pulse/client.conf
+/etc/vmware-tools
+/etc/vmware-tools/resume-vm-default
+/etc/vmware-tools/scripts
+/etc/vmware-tools/scripts/vmware
+/etc/vmware-tools/scripts/vmware/network
+/etc/vmware-tools/poweron-vm-default
+/etc/vmware-tools/vgauth
+/etc/vmware-tools/vgauth/schemas
+/etc/vmware-tools/vgauth/schemas/catalog.xml
+/etc/vmware-tools/vgauth/schemas/xenc-schema.xsd
+/etc/vmware-tools/vgauth/schemas/XMLSchema.xsd
+/etc/vmware-tools/vgauth/schemas/xmldsig-core-schema.xsd
+/etc/vmware-tools/vgauth/schemas/xml.xsd
+/etc/vmware-tools/vgauth/schemas/saml-schema-assertion-2.0.xsd
+/etc/vmware-tools/vgauth/schemas/datatypes.dtd
+/etc/vmware-tools/vgauth/schemas/XMLSchema-instance.xsd
+/etc/vmware-tools/vgauth/schemas/XMLSchema-hasFacetAndProperty.xsd
+/etc/vmware-tools/vgauth/schemas/XMLSchema.dtd
+/etc/vmware-tools/suspend-vm-default
+/etc/vmware-tools/tools.conf.example
+/etc/vmware-tools/poweroff-vm-default
+/etc/vmware-tools/vm-support
+/etc/vmware-tools/statechange.subr
+/etc/vmware-tools/tools.conf
+/etc/vmware-tools/vgauth.conf
+/etc/postgresql
+/etc/postgresql/12
+/etc/postgresql/12/main
+/etc/postgresql/12/main/pg_hba.conf
+/etc/postgresql/12/main/pg_ctl.conf
+/etc/postgresql/12/main/start.conf
+/etc/postgresql/12/main/environment
+/etc/postgresql/12/main/conf.d
+/etc/postgresql/12/main/postgresql.conf
+/etc/postgresql/12/main/pg_ident.conf
+/etc/groff
+/etc/groff/man.local
+/etc/groff/mdoc.local
+/etc/ldap
+/etc/ldap/ldap.conf
+/etc/locale.gen
+/etc/bindresvport.blacklist
+/etc/update-notifier
+/etc/login.defs
+/etc/vtrgb
+/etc/pam.d
+/etc/pam.d/chpasswd
+/etc/pam.d/vmtoolsd
+/etc/pam.d/atd
+/etc/pam.d/runuser-l
+/etc/pam.d/polkit-1
+/etc/pam.d/runuser
+/etc/pam.d/su
+/etc/pam.d/login
+/etc/pam.d/chfn
+/etc/pam.d/sudo
+/etc/pam.d/common-password
+/etc/pam.d/other
+/etc/pam.d/systemd-user
+/etc/pam.d/common-session-noninteractive
+/etc/pam.d/cron
+/etc/pam.d/passwd
+/etc/pam.d/common-account
+/etc/pam.d/sshd
+/etc/pam.d/common-auth
+/etc/pam.d/newusers
+/etc/pam.d/chsh
+/etc/pam.d/common-session
+/etc/pam.d/su-l
+/etc/e2scrub.conf
+/etc/selinux
+/etc/selinux/semanage.conf
+/etc/sysstat
+/etc/sysstat/sysstat.ioconf
+/etc/sysstat/sysstat
+/etc/ld.so.cache
+/etc/profile
+/etc/at.deny
+/etc/skel
+/etc/skel/.profile
+/etc/skel/.bash_logout
+/etc/skel/.bashrc
+/etc/issue
+/etc/xdg
+/etc/xdg/systemd
+/etc/xdg/systemd/user
+/etc/xdg/user-dirs.conf
+/etc/xdg/user-dirs.defaults
+/etc/xdg/autostart
+/etc/xdg/autostart/snap-userd-autostart.desktop
+/etc/xdg/autostart/xdg-user-dirs.desktop
+/etc/shadow
+/etc/hdparm.conf
+/etc/PackageKit
+/etc/PackageKit/PackageKit.conf
+/etc/PackageKit/Vendor.conf
+/etc/security
+/etc/security/group.conf
+/etc/security/namespace.init
+/etc/security/pam_env.conf
+/etc/security/time.conf
+/etc/security/namespace.d
+/etc/security/limits.d
+/etc/security/capability.conf
+/etc/security/limits.conf
+/etc/security/namespace.conf
+/etc/security/access.conf
+/etc/security/opasswd
+/etc/security/sepermit.conf
+/etc/host.conf
+/etc/magic
+/etc/pki
+/etc/pki/fwupd
+/etc/pki/fwupd/GPG-KEY-Linux-Foundation-Firmware
+/etc/pki/fwupd/GPG-KEY-Hughski-Limited
+/etc/pki/fwupd/LVFS-CA.pem
+/etc/pki/fwupd/GPG-KEY-Linux-Vendor-Firmware-Service
+/etc/pki/fwupd-metadata
+/etc/pki/fwupd-metadata/GPG-KEY-Linux-Foundation-Metadata
+/etc/pki/fwupd-metadata/LVFS-CA.pem
+/etc/pki/fwupd-metadata/GPG-KEY-Linux-Vendor-Firmware-Service
+/etc/hostname
+/etc/fonts
+/etc/fonts/fonts.conf
+/etc/fonts/conf.avail
+/etc/fonts/conf.avail/20-unhint-small-vera.conf
+/etc/fonts/conf.avail/69-language-selector-zh-sg.conf
+/etc/fonts/conf.avail/70-no-bitmaps.conf
+/etc/fonts/conf.avail/20-unhint-small-dejavu-sans-mono.conf
+/etc/fonts/conf.avail/10-no-sub-pixel.conf
+/etc/fonts/conf.avail/57-dejavu-sans-mono.conf
+/etc/fonts/conf.avail/51-local.conf
+/etc/fonts/conf.avail/70-yes-bitmaps.conf
+/etc/fonts/conf.avail/11-lcdfilter-light.conf
+/etc/fonts/conf.avail/10-antialias.conf
+/etc/fonts/conf.avail/10-sub-pixel-vbgr.conf
+/etc/fonts/conf.avail/11-lcdfilter-default.conf
+/etc/fonts/conf.avail/69-language-selector-zh-mo.conf
+/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans.conf
+/etc/fonts/conf.avail/10-scale-bitmap-fonts.conf
+/etc/fonts/conf.avail/90-synthetic.conf
+/etc/fonts/conf.avail/45-generic.conf
+/etc/fonts/conf.avail/70-force-bitmaps.conf
+/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans-mono.conf
+/etc/fonts/conf.avail/30-metric-aliases.conf
+/etc/fonts/conf.avail/25-unhint-nonlatin.conf
+/etc/fonts/conf.avail/10-hinting-none.conf
+/etc/fonts/conf.avail/53-monospace-lcd-filter.conf
+/etc/fonts/conf.avail/20-unhint-small-dejavu-serif.conf
+/etc/fonts/conf.avail/11-lcdfilter-legacy.conf
+/etc/fonts/conf.avail/69-language-selector-zh-cn.conf
+/etc/fonts/conf.avail/65-fonts-persian.conf
+/etc/fonts/conf.avail/10-autohint.conf
+/etc/fonts/conf.avail/30-droid-noto-mono.conf
+/etc/fonts/conf.avail/69-language-selector-zh-hk.conf
+/etc/fonts/conf.avail/58-dejavu-lgc-sans-mono.conf
+/etc/fonts/conf.avail/64-language-selector-prefer.conf
+/etc/fonts/conf.avail/69-language-selector-zh-tw.conf
+/etc/fonts/conf.avail/80-delicious.conf
+/etc/fonts/conf.avail/69-unifont.conf
+/etc/fonts/conf.avail/10-hinting-medium.conf
+/etc/fonts/conf.avail/30-cjk-aliases.conf
+/etc/fonts/conf.avail/20-unhint-small-dejavu-sans.conf
+/etc/fonts/conf.avail/10-sub-pixel-bgr.conf
+/etc/fonts/conf.avail/57-dejavu-serif.conf
+/etc/fonts/conf.avail/69-language-selector-ja.conf
+/etc/fonts/conf.avail/49-sansserif.conf
+/etc/fonts/conf.avail/20-unhint-small-dejavu-lgc-serif.conf
+/etc/fonts/conf.avail/65-droid-sans-fallback.conf
+/etc/fonts/conf.avail/65-khmer.conf
+/etc/fonts/conf.avail/60-generic.conf
+/etc/fonts/conf.avail/58-dejavu-lgc-serif.conf
+/etc/fonts/conf.avail/58-dejavu-lgc-sans.conf
+/etc/fonts/conf.avail/10-hinting-full.conf
+/etc/fonts/conf.avail/10-sub-pixel-vrgb.conf
+/etc/fonts/conf.avail/10-unhinted.conf
+/etc/fonts/conf.avail/10-hinting-slight.conf
+/etc/fonts/conf.avail/57-dejavu-sans.conf
+/etc/fonts/conf.avail/40-nonlatin.conf
+/etc/fonts/conf.avail/50-user.conf
+/etc/fonts/conf.avail/45-latin.conf
+/etc/fonts/conf.avail/10-sub-pixel-rgb.conf
+/etc/fonts/conf.avail/60-latin.conf
+/etc/fonts/conf.avail/99-language-selector-zh.conf
+/etc/fonts/conf.avail/65-nonlatin.conf
+/etc/fonts/conf.d
+/etc/fonts/conf.d/20-unhint-small-vera.conf
+/etc/fonts/conf.d/61-urw-p052.conf
+/etc/fonts/conf.d/69-language-selector-zh-sg.conf
+/etc/fonts/conf.d/61-urw-standard-symbols-ps.conf
+/etc/fonts/conf.d/70-no-bitmaps.conf
+/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf
+/etc/fonts/conf.d/61-urw-fallback-backwards.conf
+/etc/fonts/conf.d/61-urw-nimbus-roman.conf
+/etc/fonts/conf.d/57-dejavu-sans-mono.conf
+/etc/fonts/conf.d/51-local.conf
+/etc/fonts/conf.d/10-antialias.conf
+/etc/fonts/conf.d/11-lcdfilter-default.conf
+/etc/fonts/conf.d/69-language-selector-zh-mo.conf
+/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans.conf
+/etc/fonts/conf.d/61-urw-nimbus-sans.conf
+/etc/fonts/conf.d/10-scale-bitmap-fonts.conf
+/etc/fonts/conf.d/90-synthetic.conf
+/etc/fonts/conf.d/45-generic.conf
+/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-sans-mono.conf
+/etc/fonts/conf.d/30-metric-aliases.conf
+/etc/fonts/conf.d/61-urw-c059.conf
+/etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf
+/etc/fonts/conf.d/69-language-selector-zh-cn.conf
+/etc/fonts/conf.d/61-urw-d050000l.conf
+/etc/fonts/conf.d/65-fonts-persian.conf
+/etc/fonts/conf.d/69-language-selector-zh-hk.conf
+/etc/fonts/conf.d/61-urw-fallback-generics.conf
+/etc/fonts/conf.d/58-dejavu-lgc-sans-mono.conf
+/etc/fonts/conf.d/64-language-selector-prefer.conf
+/etc/fonts/conf.d/61-urw-z003.conf
+/etc/fonts/conf.d/69-language-selector-zh-tw.conf
+/etc/fonts/conf.d/80-delicious.conf
+/etc/fonts/conf.d/69-unifont.conf
+/etc/fonts/conf.d/61-urw-bookman.conf
+/etc/fonts/conf.d/30-cjk-aliases.conf
+/etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf
+/etc/fonts/conf.d/57-dejavu-serif.conf
+/etc/fonts/conf.d/69-language-selector-ja.conf
+/etc/fonts/conf.d/49-sansserif.conf
+/etc/fonts/conf.d/61-urw-nimbus-mono-ps.conf
+/etc/fonts/conf.d/20-unhint-small-dejavu-lgc-serif.conf
+/etc/fonts/conf.d/65-droid-sans-fallback.conf
+/etc/fonts/conf.d/60-generic.conf
+/etc/fonts/conf.d/58-dejavu-lgc-serif.conf
+/etc/fonts/conf.d/58-dejavu-lgc-sans.conf
+/etc/fonts/conf.d/10-hinting-slight.conf
+/etc/fonts/conf.d/57-dejavu-sans.conf
+/etc/fonts/conf.d/40-nonlatin.conf
+/etc/fonts/conf.d/50-user.conf
+/etc/fonts/conf.d/45-latin.conf
+/etc/fonts/conf.d/61-urw-gothic.conf
+/etc/fonts/conf.d/60-latin.conf
+/etc/fonts/conf.d/99-language-selector-zh.conf
+/etc/fonts/conf.d/README
+/etc/fonts/conf.d/65-nonlatin.conf
+/etc/fstab
+/etc/papersize
+/etc/ssl
+/etc/ssl/private
+find: ‘/etc/ssl/private’: Permission denied
+/etc/ssl/certs
+/etc/ssl/certs/Buypass_Class_2_Root_CA.pem
+/etc/ssl/certs/2c543cd1.0
+/etc/ssl/certs/Microsec_e-Szigno_Root_CA_2009.pem
+/etc/ssl/certs/XRamp_Global_CA_Root.pem
+/etc/ssl/certs/c0ff1f52.0
+/etc/ssl/certs/LuxTrust_Global_Root_2.pem
+/etc/ssl/certs/TrustCor_RootCert_CA-2.pem
+/etc/ssl/certs/f3377b1b.0
+/etc/ssl/certs/Network_Solutions_Certificate_Authority.pem
+/etc/ssl/certs/4a6481c9.0
+/etc/ssl/certs/fe8a2cd8.0
+/etc/ssl/certs/EE_Certification_Centre_Root_CA.pem
+/etc/ssl/certs/c01cdfa2.0
+/etc/ssl/certs/e2799e36.0
+/etc/ssl/certs/d853d49e.0
+/etc/ssl/certs/VeriSign_Universal_Root_Certification_Authority.pem
+/etc/ssl/certs/Staat_der_Nederlanden_Root_CA_-_G3.pem
+/etc/ssl/certs/9d04f354.0
+/etc/ssl/certs/T-TeleSec_GlobalRoot_Class_3.pem
+/etc/ssl/certs/653b494a.0
+/etc/ssl/certs/QuoVadis_Root_CA_1_G3.pem
+/etc/ssl/certs/Global_Chambersign_Root_-_2008.pem
+/etc/ssl/certs/5ad8a5d6.0
+/etc/ssl/certs/thawte_Primary_Root_CA_-_G3.pem
+/etc/ssl/certs/4042bcee.0
+/etc/ssl/certs/Cybertrust_Global_Root.pem
+/etc/ssl/certs/AC_RAIZ_FNMT-RCM.pem
+/etc/ssl/certs/d6325660.0
+/etc/ssl/certs/USERTrust_RSA_Certification_Authority.pem
+/etc/ssl/certs/0bf05006.0
+/etc/ssl/certs/GeoTrust_Universal_CA.pem
+/etc/ssl/certs/SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+/etc/ssl/certs/CFCA_EV_ROOT.pem
+/etc/ssl/certs/D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+/etc/ssl/certs/8d86cdd1.0
+/etc/ssl/certs/f387163d.0
+/etc/ssl/certs/0b1b94ef.0
+/etc/ssl/certs/128805a3.0
+/etc/ssl/certs/DigiCert_High_Assurance_EV_Root_CA.pem
+/etc/ssl/certs/DigiCert_Assured_ID_Root_CA.pem
+/etc/ssl/certs/6410666e.0
+/etc/ssl/certs/5443e9e3.0
+/etc/ssl/certs/Go_Daddy_Root_Certificate_Authority_-_G2.pem
+/etc/ssl/certs/GeoTrust_Global_CA.pem
+/etc/ssl/certs/988a38cb.0
+/etc/ssl/certs/02265526.0
+/etc/ssl/certs/81bdb22f
+/etc/ssl/certs/ee64a828.0
+/etc/ssl/certs/f30dd6ad.0
+/etc/ssl/certs/Actalis_Authentication_Root_CA.pem
+/etc/ssl/certs/GlobalSign_Root_CA_-_R3.pem
+/etc/ssl/certs/fc5a8f99.0
+/etc/ssl/certs/b204d74a.0
+/etc/ssl/certs/773e07ad.0
+/etc/ssl/certs/c089bbbd.0
+/etc/ssl/certs/Security_Communication_Root_CA.pem
+/etc/ssl/certs/f060240e.0
+/etc/ssl/certs/TrustCor_ECA-1.pem
+/etc/ssl/certs/9c8dfbd4.0
+/etc/ssl/certs/GlobalSign_ECC_Root_CA_-_R5.pem
+/etc/ssl/certs/ssl-cert-snakeoil.pem
+/etc/ssl/certs/thawte_Primary_Root_CA.pem
+/etc/ssl/certs/Amazon_Root_CA_2.pem
+/etc/ssl/certs/706f604c.0
+/etc/ssl/certs/76cb8f92.0
+/etc/ssl/certs/080911ac.0
+/etc/ssl/certs/Certigna.pem
+/etc/ssl/certs/GlobalSign_Root_CA.pem
+/etc/ssl/certs/GlobalSign_ECC_Root_CA_-_R4.pem
+/etc/ssl/certs/ef954a4e.0
+/etc/ssl/certs/2e5ac55d.0
+/etc/ssl/certs/COMODO_RSA_Certification_Authority.pem
+/etc/ssl/certs/cc450945.0
+/etc/ssl/certs/09789157.0
+/etc/ssl/certs/DigiCert_Global_Root_G2.pem
+/etc/ssl/certs/9f0f5fd6.0
+/etc/ssl/certs/c47d9980.0
+/etc/ssl/certs/106f3e4d.0
+/etc/ssl/certs/75d1b2ed.0
+/etc/ssl/certs/03179a64.0
+/etc/ssl/certs/SecureSign_RootCA11.pem
+/etc/ssl/certs/GeoTrust_Primary_Certification_Authority_-_G3.pem
+/etc/ssl/certs/SZAFIR_ROOT_CA2.pem
+/etc/ssl/certs/32888f65.0
+/etc/ssl/certs/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+/etc/ssl/certs/GeoTrust_Universal_CA_2.pem
+/etc/ssl/certs/5273a94c.0
+/etc/ssl/certs/def36a68.0
+/etc/ssl/certs/AffirmTrust_Premium_ECC.pem
+/etc/ssl/certs/a94d09e5.0
+/etc/ssl/certs/SSL.com_Root_Certification_Authority_ECC.pem
+/etc/ssl/certs/4304c5e5.0
+/etc/ssl/certs/57bcb2da.0
+/etc/ssl/certs/e113c810.0
+/etc/ssl/certs/b7a5b843.0
+/etc/ssl/certs/AddTrust_External_Root.pem
+/etc/ssl/certs/DigiCert_Trusted_Root_G4.pem
+/etc/ssl/certs/Baltimore_CyberTrust_Root.pem
+/etc/ssl/certs/E-Tugra_Certification_Authority.pem
+/etc/ssl/certs/T-TeleSec_GlobalRoot_Class_2.pem
+/etc/ssl/certs/7d0b38bd.0
+/etc/ssl/certs/Certum_Trusted_Network_CA.pem
+/etc/ssl/certs/9c2e7d30.0
+/etc/ssl/certs/SwissSign_Gold_CA_-_G2.pem
+/etc/ssl/certs/062cdee6.0
+/etc/ssl/certs/dd8e9d41.0
+/etc/ssl/certs/Hongkong_Post_Root_CA_1.pem
+/etc/ssl/certs/ca6e4ad9.0
+/etc/ssl/certs/Entrust_Root_Certification_Authority.pem
+/etc/ssl/certs/USERTrust_ECC_Certification_Authority.pem
+/etc/ssl/certs/dc4d6a89.0
+/etc/ssl/certs/ad088e1d.0
+/etc/ssl/certs/1e09d511.0
+/etc/ssl/certs/DigiCert_Global_Root_G3.pem
+/etc/ssl/certs/244b5494.0
+/etc/ssl/certs/eed8c118.0
+/etc/ssl/certs/ISRG_Root_X1.pem
+/etc/ssl/certs/Deutsche_Telekom_Root_CA_2.pem
+/etc/ssl/certs/SSL.com_EV_Root_Certification_Authority_ECC.pem
+/etc/ssl/certs/GDCA_TrustAUTH_R5_ROOT.pem
+/etc/ssl/certs/Go_Daddy_Class_2_CA.pem
+/etc/ssl/certs/ff34af3f.0
+/etc/ssl/certs/COMODO_ECC_Certification_Authority.pem
+/etc/ssl/certs/54657681.0
+/etc/ssl/certs/157753a5.0
+/etc/ssl/certs/7aaf71c0.0
+/etc/ssl/certs/NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+/etc/ssl/certs/8160b96c.0
+/etc/ssl/certs/76faf6c0.0
+/etc/ssl/certs/e36a6752.0
+/etc/ssl/certs/93bc0acc.0
+/etc/ssl/certs/064e0aa9.0
+/etc/ssl/certs/f081611a.0
+/etc/ssl/certs/cd58d51e.0
+/etc/ssl/certs/349f2832.0
+/etc/ssl/certs/116bf586.0
+/etc/ssl/certs/b1159c4c.0
+/etc/ssl/certs/1d3472b9.0
+/etc/ssl/certs/QuoVadis_Root_CA_2_G3.pem
+/etc/ssl/certs/Certum_Trusted_Network_CA_2.pem
+/etc/ssl/certs/f39fc864.0
+/etc/ssl/certs/IdenTrust_Public_Sector_Root_CA_1.pem
+/etc/ssl/certs/ba89ed3b.0
+/etc/ssl/certs/Entrust.net_Premium_2048_Secure_Server_CA.pem
+/etc/ssl/certs/QuoVadis_Root_CA_2.pem
+/etc/ssl/certs/ACCVRAIZ1.pem
+/etc/ssl/certs/48bec511.0
+/etc/ssl/certs/TeliaSonera_Root_CA_v1.pem
+/etc/ssl/certs/40547a79.0
+/etc/ssl/certs/SecureTrust_CA.pem
+/etc/ssl/certs/607986c7.0
+/etc/ssl/certs/OISTE_WISeKey_Global_Root_GB_CA.pem
+/etc/ssl/certs/2b349938.0
+/etc/ssl/certs/c28a8a30.0
+/etc/ssl/certs/ePKI_Root_Certification_Authority.pem
+/etc/ssl/certs/e73d606e.0
+/etc/ssl/certs/e18bfb83.0
+/etc/ssl/certs/cd8c0d63.0
+/etc/ssl/certs/AffirmTrust_Networking.pem
+/etc/ssl/certs/TWCA_Global_Root_CA.pem
+/etc/ssl/certs/8cb5ee0f.0
+/etc/ssl/certs/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem
+/etc/ssl/certs/de6d66f3.0
+/etc/ssl/certs/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+/etc/ssl/certs/Staat_der_Nederlanden_EV_Root_CA.pem
+/etc/ssl/certs/8867006a.0
+/etc/ssl/certs/QuoVadis_Root_CA_3_G3.pem
+/etc/ssl/certs/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+/etc/ssl/certs/1e08bfd1.0
+/etc/ssl/certs/D-TRUST_Root_Class_3_CA_2_2009.pem
+/etc/ssl/certs/cbf06781.0
+/etc/ssl/certs/Chambers_of_Commerce_Root_-_2008.pem
+/etc/ssl/certs/certSIGN_ROOT_CA.pem
+/etc/ssl/certs/480720ec.0
+/etc/ssl/certs/3e44d2f7.0
+/etc/ssl/certs/Staat_der_Nederlanden_Root_CA_-_G2.pem
+/etc/ssl/certs/0c4c9b6c.0
+/etc/ssl/certs/d4dae3dd.0
+/etc/ssl/certs/7719f463.0
+/etc/ssl/certs/QuoVadis_Root_CA.pem
+/etc/ssl/certs/GlobalSign_Root_CA_-_R6.pem
+/etc/ssl/certs/Amazon_Root_CA_1.pem
+/etc/ssl/certs/Trustis_FPS_Root_CA.pem
+/etc/ssl/certs/4bfab552.0
+/etc/ssl/certs/DST_Root_CA_X3.pem
+/etc/ssl/certs/TWCA_Root_Certification_Authority.pem
+/etc/ssl/certs/3513523f.0
+/etc/ssl/certs/IdenTrust_Commercial_Root_CA_1.pem
+/etc/ssl/certs/Starfield_Root_Certificate_Authority_-_G2.pem
+/etc/ssl/certs/SwissSign_Silver_CA_-_G2.pem
+/etc/ssl/certs/d7e8dc79.0
+/etc/ssl/certs/40193066.0
+/etc/ssl/certs/Certplus_Class_2_Primary_CA.pem
+/etc/ssl/certs/GeoTrust_Primary_Certification_Authority.pem
+/etc/ssl/certs/812e17de.0
+/etc/ssl/certs/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
+/etc/ssl/certs/ce5e74ef.0
+/etc/ssl/certs/OISTE_WISeKey_Global_Root_GA_CA.pem
+/etc/ssl/certs/6fa5da56.0
+/etc/ssl/certs/06dc52d5.0
+/etc/ssl/certs/DigiCert_Assured_ID_Root_G3.pem
+/etc/ssl/certs/COMODO_Certification_Authority.pem
+/etc/ssl/certs/Buypass_Class_3_Root_CA.pem
+/etc/ssl/certs/AffirmTrust_Premium.pem
+/etc/ssl/certs/6d41d539.0
+/etc/ssl/certs/CA_Disig_Root_R2.pem
+/etc/ssl/certs/f0c70a8d.0
+/etc/ssl/certs/b727005e.0
+/etc/ssl/certs/0f6fa695.0
+/etc/ssl/certs/QuoVadis_Root_CA_3.pem
+/etc/ssl/certs/4f316efb.0
+/etc/ssl/certs/Certinomis_-_Root_CA.pem
+/etc/ssl/certs/aee5f10d.0
+/etc/ssl/certs/18856ac4.0
+/etc/ssl/certs/749e9e03.0
+/etc/ssl/certs/2ae6433e.0
+/etc/ssl/certs/5a4d6896.0
+/etc/ssl/certs/930ac5d2.0
+/etc/ssl/certs/Amazon_Root_CA_3.pem
+/etc/ssl/certs/6b99d060.0
+/etc/ssl/certs/GeoTrust_Primary_Certification_Authority_-_G2.pem
+/etc/ssl/certs/b1b8a7f3.0
+/etc/ssl/certs/5c44d531.0
+/etc/ssl/certs/Secure_Global_CA.pem
+/etc/ssl/certs/Amazon_Root_CA_4.pem
+/etc/ssl/certs/b0e59380.0
+/etc/ssl/certs/e8de2f56.0
+/etc/ssl/certs/Comodo_AAA_Services_root.pem
+/etc/ssl/certs/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
+/etc/ssl/certs/b66938e9.0
+/etc/ssl/certs/DigiCert_Assured_ID_Root_G2.pem
+/etc/ssl/certs/Starfield_Services_Root_Certificate_Authority_-_G2.pem
+/etc/ssl/certs/AffirmTrust_Commercial.pem
+/etc/ssl/certs/5d3033c5.0
+/etc/ssl/certs/Starfield_Class_2_CA.pem
+/etc/ssl/certs/Sonera_Class_2_Root_CA.pem
+/etc/ssl/certs/EC-ACC.pem
+/etc/ssl/certs/TrustCor_RootCert_CA-1.pem
+/etc/ssl/certs/1636090b.0
+/etc/ssl/certs/ca-certificates.crt
+/etc/ssl/certs/3e45d192.0
+/etc/ssl/certs/Security_Communication_RootCA2.pem
+/etc/ssl/certs/3bde41ac.0
+/etc/ssl/certs/thawte_Primary_Root_CA_-_G2.pem
+/etc/ssl/certs/Taiwan_GRCA.pem
+/etc/ssl/certs/Entrust_Root_Certification_Authority_-_EC1.pem
+/etc/ssl/certs/DigiCert_Global_Root_CA.pem
+/etc/ssl/certs/5cd81ad7.0
+/etc/ssl/certs/Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
+/etc/ssl/certs/GlobalSign_Root_CA_-_R2.pem
+/etc/ssl/certs/OISTE_WISeKey_Global_Root_GC_CA.pem
+/etc/ssl/certs/Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+/etc/ssl/certs/SSL.com_Root_Certification_Authority_RSA.pem
+/etc/ssl/certs/5f15c80c.0
+/etc/ssl/certs/Izenpe.com.pem
+/etc/ssl/certs/7f3d5d1d.0
+/etc/ssl/certs/Entrust_Root_Certification_Authority_-_G2.pem
+/etc/ssl/certs/2e4eed3c.0
+/etc/ssl/certs/Atos_TrustedRoot_2011.pem
+/etc/ssl/openssl.cnf
+/etc/depmod.d
+/etc/depmod.d/ubuntu.conf
+/etc/rc3.d
+/etc/rc3.d/S01postgresql
+/etc/rc3.d/S01atd
+/etc/rc3.d/S01multipath-tools
+/etc/rc3.d/S01plymouth
+/etc/rc3.d/S01apport
+/etc/rc3.d/S01rsync
+/etc/rc3.d/S01lvm2-lvmpolld
+/etc/rc3.d/S01dbus
+/etc/rc3.d/S01open-vm-tools
+/etc/rc3.d/S01unattended-upgrades
+/etc/rc3.d/S01rsyslog
+/etc/rc3.d/S01cron
+/etc/rc3.d/S01sysstat
+/etc/rc3.d/S01irqbalance
+/etc/rc3.d/S01ssh
+/etc/rc3.d/S01console-setup.sh
+/etc/rc3.d/S01uuidd
+/etc/cron.d
+/etc/cron.d/e2scrub_all
+/etc/cron.d/sysstat
+/etc/cron.d/popularity-contest
+/etc/cron.d/.placeholder
+/etc/logcheck
+/etc/logcheck/violations.d
+/etc/logcheck/violations.d/mdadm
+/etc/logcheck/ignore.d.server
+/etc/logcheck/ignore.d.server/libsasl2-modules
+/etc/logcheck/ignore.d.server/rsyslog
+/etc/logcheck/ignore.d.server/mdadm
+/etc/logcheck/ignore.d.server/gpg-agent
+/etc/mailcap.order
+/etc/ufw
+/etc/ufw/ufw.conf
+/etc/ufw/after6.rules
+/etc/ufw/after.rules
+/etc/ufw/before.rules
+/etc/ufw/before.init
+/etc/ufw/user6.rules
+/etc/ufw/user.rules
+/etc/ufw/after.init
+/etc/ufw/sysctl.conf
+/etc/ufw/before6.rules
+/etc/ufw/applications.d
+/etc/ufw/applications.d/openssh-server
+/etc/default
+/etc/default/useradd
+/etc/default/locale
+/etc/default/pollinate
+/etc/default/apport
+/etc/default/console-setup
+/etc/default/networkd-dispatcher
+/etc/default/rsync
+/etc/default/irqbalance
+/etc/default/bsdmainutils
+/etc/default/grub.d
+/etc/default/grub.d/50-cloudimg-settings.cfg
+/etc/default/cryptdisks
+/etc/default/cron
+/etc/default/sysstat
+/etc/default/nss
+/etc/default/dbus
+/etc/default/ufw
+/etc/default/open-iscsi
+/etc/default/keyboard
+/etc/default/motd-news
+/etc/default/mdadm
+/etc/default/ssh
+/etc/rc1.d
+/etc/rc1.d/K01postgresql
+/etc/rc1.d/K01open-iscsi
+/etc/rc1.d/K01open-vm-tools
+/etc/rc1.d/K01multipath-tools
+/etc/rc1.d/K01iscsid
+/etc/rc1.d/K01rsyslog
+/etc/rc1.d/K01atd
+/etc/rc1.d/K01ufw
+/etc/rc1.d/K01uuidd
+/etc/rc1.d/K01lvm2-lvmpolld
+/etc/rc1.d/K01irqbalance
+/etc/environment
+/etc/postgresql-common
+/etc/postgresql-common/root.crt
+/etc/postgresql-common/pg_upgradecluster.d
+/etc/postgresql-common/user_clusters
+/etc/postgresql-common/supported_versions
+/etc/postgresql-common/createcluster.conf
+/etc/perl
+/etc/perl/Net
+/etc/perl/Net/libnet.cfg
+/etc/gshadow-
+/etc/pam.conf
+/etc/gshadow
+/etc/ghostscript
+/etc/ghostscript/fontmap.d
+/etc/ghostscript/fontmap.d/10gsfonts.conf
+/etc/ghostscript/cidfmap.d
+/etc/ghostscript/cidfmap.d/90gs-cjk-resource-cns1.conf
+/etc/ghostscript/cidfmap.d/90gs-cjk-resource-korea1.conf
+/etc/ghostscript/cidfmap.d/90gs-cjk-resource-japan2.conf
+/etc/ghostscript/cidfmap.d/90gs-cjk-resource-japan1.conf
+/etc/ghostscript/cidfmap.d/90gs-cjk-resource-gb1.conf
+/etc/ld.so.conf.d
+/etc/ld.so.conf.d/x86_64-linux-gnu.conf
+/etc/ld.so.conf.d/libc.conf
+/etc/ld.so.conf.d/fakeroot-x86_64-linux-gnu.conf
+/etc/ld.so.conf.d/ld.wsl.conf
+/etc/landscape
+/etc/ca-certificates
+/etc/ca-certificates/update.d
+/etc/gss
+/etc/gss/mech.d
+/etc/NetworkManager
+/etc/NetworkManager/dispatcher.d
+/etc/NetworkManager/dispatcher.d/hook-network-manager
+/etc/sysctl.conf
+/etc/subgid
+/etc/cryptsetup-initramfs
+/etc/cryptsetup-initramfs/conf-hook
+/etc/zsh_command_not_found
+/etc/pm
+/etc/pm/sleep.d
+/etc/pm/sleep.d/10_unattended-upgrades-hibernate
+/etc/shells
+/etc/mke2fs.conf
+/etc/issue.net
+/etc/group
+/etc/.pwd.lock
+/etc/cron.monthly
+/etc/cron.monthly/.placeholder
+/etc/networks
+/etc/ubuntu-advantage
+/etc/ubuntu-advantage/uaclient.conf
+/etc/update-motd.d
+/etc/update-motd.d/10-help-text
+/etc/update-motd.d/91-release-upgrade
+/etc/update-motd.d/00-header
+/etc/update-motd.d/98-reboot-required
+/etc/update-motd.d/95-hwe-eol
+/etc/update-motd.d/90-updates-available
+/etc/update-motd.d/50-motd-news
+/etc/update-motd.d/97-overlayroot
+/etc/update-motd.d/85-fwupd
+/etc/update-motd.d/50-landscape-sysinfo
+/etc/update-motd.d/92-unattended-upgrades
+/etc/update-motd.d/98-fsck-at-reboot
+/etc/rpc
+/etc/rc2.d
+/etc/rc2.d/S01postgresql
+/etc/rc2.d/S01atd
+/etc/rc2.d/S01multipath-tools
+/etc/rc2.d/S01plymouth
+/etc/rc2.d/S01apport
+/etc/rc2.d/S01rsync
+/etc/rc2.d/S01lvm2-lvmpolld
+/etc/rc2.d/S01dbus
+/etc/rc2.d/S01open-vm-tools
+/etc/rc2.d/S01unattended-upgrades
+/etc/rc2.d/S01rsyslog
+/etc/rc2.d/S01cron
+/etc/rc2.d/S01sysstat
+/etc/rc2.d/S01irqbalance
+/etc/rc2.d/S01ssh
+/etc/rc2.d/S01console-setup.sh
+/etc/rc2.d/S01uuidd
+/etc/cron.weekly
+/etc/cron.weekly/man-db
+/etc/cron.weekly/.placeholder
+/etc/cron.weekly/update-notifier-common
+/etc/mailcap
+/etc/ImageMagick-6
+/etc/ImageMagick-6/delegates.xml
+/etc/ImageMagick-6/coder.xml
+/etc/ImageMagick-6/thresholds.xml
+/etc/ImageMagick-6/colors.xml
+/etc/ImageMagick-6/mime.xml
+/etc/ImageMagick-6/quantization-table.xml
+/etc/ImageMagick-6/policy.xml
+/etc/ImageMagick-6/type-urw-base35.xml
+/etc/ImageMagick-6/log.xml
+/etc/ImageMagick-6/type-ghostscript.xml
+/etc/ImageMagick-6/type.xml
+/etc/ImageMagick-6/type-apple.xml
+/etc/ImageMagick-6/type-dejavu.xml
+/etc/ImageMagick-6/magic.xml
+/etc/ImageMagick-6/type-windows.xml
+/etc/sos.conf
+/etc/udev
+/etc/udev/udev.conf
+/etc/udev/hwdb.d
+/etc/udev/rules.d
+/etc/subgid-
+/etc/kernel
+/etc/kernel/install.d
+/etc/kernel/postrm.d
+/etc/kernel/postrm.d/initramfs-tools
+/etc/kernel/postinst.d
+/etc/kernel/postinst.d/initramfs-tools
+/etc/kernel/postinst.d/apt-auto-removal
+/etc/kernel/postinst.d/update-notifier
+/etc/kernel/postinst.d/unattended-upgrades
+/etc/hosts.allow
+/etc/ethertypes
+/etc/mdadm
+/etc/mdadm/mdadm.conf
+/etc/debian_version
+/etc/profile.d
+/etc/profile.d/Z97-byobu.sh
+/etc/profile.d/Z99-cloud-locale-test.sh
+/etc/profile.d/apps-bin-path.sh
+/etc/profile.d/cedilla-portuguese.sh
+/etc/profile.d/gawk.sh
+/etc/profile.d/update-motd.sh
+/etc/profile.d/Z99-cloudinit-warnings.sh
+/etc/profile.d/bash_completion.sh
+/etc/profile.d/gawk.csh
+/etc/profile.d/01-locale-fix.sh
+/etc/debconf.conf
+/etc/crypttab
+/etc/glvnd
+/etc/glvnd/egl_vendor.d
+/etc/logrotate.conf
+/etc/bash_completion
+/etc/passwd-
+/etc/alternatives
+/etc/alternatives/ALTER_ROLE.7.gz
+/etc/alternatives/view.pl.1.gz
+/etc/alternatives/netrc.5.gz
+/etc/alternatives/CREATE_TRANSFORM.7.gz
+/etc/alternatives/import
+/etc/alternatives/stream.1.gz
+/etc/alternatives/ex.da.1.gz
+/etc/alternatives/CREATE_DATABASE.7.gz
+/etc/alternatives/CLOSE.7.gz
+/etc/alternatives/BEGIN.7.gz
+/etc/alternatives/mogrify
+/etc/alternatives/oid2name.1.gz
+/etc/alternatives/composite.1.gz
+/etc/alternatives/montage.1.gz
+/etc/alternatives/ex.ja.1.gz
+/etc/alternatives/display
+/etc/alternatives/pg_standby.1.gz
+/etc/alternatives/stream-im6
+/etc/alternatives/TRUNCATE.7.gz
+/etc/alternatives/DROP_USER.7.gz
+/etc/alternatives/ALTER_TABLESPACE.7.gz
+/etc/alternatives/GRANT.7.gz
+/etc/alternatives/from
+/etc/alternatives/lzmore
+/etc/alternatives/NOTIFY.7.gz
+/etc/alternatives/LISTEN.7.gz
+/etc/alternatives/cc
+/etc/alternatives/vi
+/etc/alternatives/DROP_RULE.7.gz
+/etc/alternatives/DROP_MATERIALIZED_VIEW.7.gz
+/etc/alternatives/PREPARE.7.gz
+/etc/alternatives/DROP_OPERATOR_CLASS.7.gz
+/etc/alternatives/EXECUTE.7.gz
+/etc/alternatives/CREATE_OPERATOR.7.gz
+/etc/alternatives/unrar.1.gz
+/etc/alternatives/CREATE_TYPE.7.gz
+/etc/alternatives/mt.1.gz
+/etc/alternatives/CREATE_FOREIGN_TABLE.7.gz
+/etc/alternatives/LOCK.7.gz
+/etc/alternatives/vi.da.1.gz
+/etc/alternatives/CREATE_SEQUENCE.7.gz
+/etc/alternatives/lzgrep
+/etc/alternatives/traceroute6.8.gz
+/etc/alternatives/nawk.1.gz
+/etc/alternatives/DROP_ROLE.7.gz
+/etc/alternatives/awk
+/etc/alternatives/dropdb.1.gz
+/etc/alternatives/composite
+/etc/alternatives/DROP_LANGUAGE.7.gz
+/etc/alternatives/CREATE_TEXT_SEARCH_CONFIGURATION.7.gz
+/etc/alternatives/vacuumlo.1.gz
+/etc/alternatives/www-browser
+/etc/alternatives/REASSIGN_OWNED.7.gz
+/etc/alternatives/telnet.1.gz
+/etc/alternatives/CREATE_FUNCTION.7.gz
+/etc/alternatives/arptables-restore
+/etc/alternatives/identify
+/etc/alternatives/unlzma.1.gz
+/etc/alternatives/CREATE_AGGREGATE.7.gz
+/etc/alternatives/c++
+/etc/alternatives/display-im6
+/etc/alternatives/rsh.1.gz
+/etc/alternatives/convert
+/etc/alternatives/ALTER_TRIGGER.7.gz
+/etc/alternatives/display-im6.1.gz
+/etc/alternatives/view.de.1.gz
+/etc/alternatives/TABLE.7.gz
+/etc/alternatives/CREATE_VIEW.7.gz
+/etc/alternatives/WITH.7.gz
+/etc/alternatives/DROP_EXTENSION.7.gz
+/etc/alternatives/montage-im6
+/etc/alternatives/mogrify-im6
+/etc/alternatives/CREATE_TABLE.7.gz
+/etc/alternatives/pg_controldata.1.gz
+/etc/alternatives/rlogin
+/etc/alternatives/view.it.1.gz
+/etc/alternatives/DROP_STATISTICS.7.gz
+/etc/alternatives/ex.it.1.gz
+/etc/alternatives/ALTER_AGGREGATE.7.gz
+/etc/alternatives/lzegrep
+/etc/alternatives/CREATE_TABLE_AS.7.gz
+/etc/alternatives/ALTER_TEXT_SEARCH_PARSER.7.gz
+/etc/alternatives/lzfgrep
+/etc/alternatives/CREATE_TEXT_SEARCH_PARSER.7.gz
+/etc/alternatives/ALTER_TABLE.7.gz
+/etc/alternatives/cpp
+/etc/alternatives/CREATE_OPERATOR_CLASS.7.gz
+/etc/alternatives/ftp
+/etc/alternatives/import-im6
+/etc/alternatives/vi.pl.1.gz
+/etc/alternatives/DROP_USER_MAPPING.7.gz
+/etc/alternatives/ALTER_COLLATION.7.gz
+/etc/alternatives/ALTER_FOREIGN_DATA_WRAPPER.7.gz
+/etc/alternatives/arptables-save
+/etc/alternatives/CREATE_OPERATOR_FAMILY.7.gz
+/etc/alternatives/identify-im6
+/etc/alternatives/vim
+/etc/alternatives/CREATE_FOREIGN_DATA_WRAPPER.7.gz
+/etc/alternatives/ALTER_FOREIGN_TABLE.7.gz
+/etc/alternatives/rvim
+/etc/alternatives/DROP_OWNED.7.gz
+/etc/alternatives/DROP_EVENT_TRIGGER.7.gz
+/etc/alternatives/fakeroot.sv.1.gz
+/etc/alternatives/montage-im6.1.gz
+/etc/alternatives/pg_receivewal.1.gz
+/etc/alternatives/pg_dump.1.gz
+/etc/alternatives/DROP_TRIGGER.7.gz
+/etc/alternatives/pg_recvlogical.1.gz
+/etc/alternatives/rmt
+/etc/alternatives/convert.1.gz
+/etc/alternatives/ALTER_OPERATOR_FAMILY.7.gz
+/etc/alternatives/mogrify-im6.1.gz
+/etc/alternatives/lzma
+/etc/alternatives/CREATE_INDEX.7.gz
+/etc/alternatives/CREATE_EVENT_TRIGGER.7.gz
+/etc/alternatives/ALTER_USER.7.gz
+/etc/alternatives/DROP_OPERATOR.7.gz
+/etc/alternatives/newt-palette
+/etc/alternatives/arptables
+/etc/alternatives/ALTER_RULE.7.gz
+/etc/alternatives/postgres.1.gz
+/etc/alternatives/pg_upgrade.1.gz
+/etc/alternatives/DROP_SCHEMA.7.gz
+/etc/alternatives/COMMENT.7.gz
+/etc/alternatives/fakeroot.es.1.gz
+/etc/alternatives/ALTER_FUNCTION.7.gz
+/etc/alternatives/pg_rewind.1.gz
+/etc/alternatives/VALUES.7.gz
+/etc/alternatives/vi.fr.1.gz
+/etc/alternatives/telnet
+/etc/alternatives/ALTER_TEXT_SEARCH_TEMPLATE.7.gz
+/etc/alternatives/stream-im6.1.gz
+/etc/alternatives/conjure.1.gz
+/etc/alternatives/DROP_DOMAIN.7.gz
+/etc/alternatives/animate
+/etc/alternatives/x-www-browser
+/etc/alternatives/unrar
+/etc/alternatives/ALTER_OPERATOR_CLASS.7.gz
+/etc/alternatives/faked.sv.1.gz
+/etc/alternatives/animate-im6.1.gz
+/etc/alternatives/editor.1.gz
+/etc/alternatives/c++.1.gz
+/etc/alternatives/pinentry.1.gz
+/etc/alternatives/ALTER_CONVERSION.7.gz
+/etc/alternatives/CREATE_SERVER.7.gz
+/etc/alternatives/reindexdb.1.gz
+/etc/alternatives/pager.1.gz
+/etc/alternatives/COMMIT_PREPARED.7.gz
+/etc/alternatives/pg_archivecleanup.1.gz
+/etc/alternatives/postmaster.1.gz
+/etc/alternatives/ALTER_GROUP.7.gz
+/etc/alternatives/iptables-restore
+/etc/alternatives/stream
+/etc/alternatives/CHECKPOINT.7.gz
+/etc/alternatives/ALTER_SCHEMA.7.gz
+/etc/alternatives/awk.1.gz
+/etc/alternatives/jsondiff
+/etc/alternatives/identify-im6.1.gz
+/etc/alternatives/fakeroot.fr.1.gz
+/etc/alternatives/DROP_ACCESS_METHOD.7.gz
+/etc/alternatives/COPY.7.gz
+/etc/alternatives/rsh
+/etc/alternatives/CREATE_SCHEMA.7.gz
+/etc/alternatives/lzegrep.1.gz
+/etc/alternatives/ex.fr.1.gz
+/etc/alternatives/ALTER_SYSTEM.7.gz
+/etc/alternatives/DROP_SEQUENCE.7.gz
+/etc/alternatives/builtins.7.gz
+/etc/alternatives/CREATE_SUBSCRIPTION.7.gz
+/etc/alternatives/ex.1.gz
+/etc/alternatives/CALL.7.gz
+/etc/alternatives/CREATE_STATISTICS.7.gz
+/etc/alternatives/ALTER_MATERIALIZED_VIEW.7.gz
+/etc/alternatives/faked.es.1.gz
+/etc/alternatives/FETCH.7.gz
+/etc/alternatives/END.7.gz
+/etc/alternatives/EXPLAIN.7.gz
+/etc/alternatives/view.fr.1.gz
+/etc/alternatives/START_TRANSACTION.7.gz
+/etc/alternatives/mogrify.1.gz
+/etc/alternatives/write
+/etc/alternatives/DO.7.gz
+/etc/alternatives/DROP_TEXT_SEARCH_TEMPLATE.7.gz
+/etc/alternatives/ALTER_TYPE.7.gz
+/etc/alternatives/lzdiff.1.gz
+/etc/alternatives/ex
+/etc/alternatives/nawk
+/etc/alternatives/rlogin.1.gz
+/etc/alternatives/pg_isready.1.gz
+/etc/alternatives/ALTER_INDEX.7.gz
+/etc/alternatives/composite-im6
+/etc/alternatives/rcp
+/etc/alternatives/DROP_OPERATOR_FAMILY.7.gz
+/etc/alternatives/ftp.1.gz
+/etc/alternatives/pg_checksums.1.gz
+/etc/alternatives/ip6tables-restore
+/etc/alternatives/unlzma
+/etc/alternatives/compare
+/etc/alternatives/identify.1.gz
+/etc/alternatives/createdb.1.gz
+/etc/alternatives/ALTER_PUBLICATION.7.gz
+/etc/alternatives/vtrgb
+/etc/alternatives/ALTER_LARGE_OBJECT.7.gz
+/etc/alternatives/CREATE_TABLESPACE.7.gz
+/etc/alternatives/infobrowser
+/etc/alternatives/lzdiff
+/etc/alternatives/pg_restore.1.gz
+/etc/alternatives/pg_test_fsync.1.gz
+/etc/alternatives/nc
+/etc/alternatives/fakeroot.1.gz
+/etc/alternatives/ALTER_LANGUAGE.7.gz
+/etc/alternatives/lzcat.1.gz
+/etc/alternatives/ALTER_STATISTICS.7.gz
+/etc/alternatives/fakeroot
+/etc/alternatives/DROP_FOREIGN_TABLE.7.gz
+/etc/alternatives/ALTER_POLICY.7.gz
+/etc/alternatives/ip6tables-save
+/etc/alternatives/vi.it.1.gz
+/etc/alternatives/lzmore.1.gz
+/etc/alternatives/lzgrep.1.gz
+/etc/alternatives/lzcat
+/etc/alternatives/DROP_CAST.7.gz
+/etc/alternatives/pg_basebackup.1.gz
+/etc/alternatives/SECURITY_LABEL.7.gz
+/etc/alternatives/infobrowser.1.gz
+/etc/alternatives/ALTER_TEXT_SEARCH_CONFIGURATION.7.gz
+/etc/alternatives/pg_resetwal.1.gz
+/etc/alternatives/REVOKE.7.gz
+/etc/alternatives/rcp.1.gz
+/etc/alternatives/ex.de.1.gz
+/etc/alternatives/compare.1.gz
+/etc/alternatives/DROP_COLLATION.7.gz
+/etc/alternatives/conjure-im6.1.gz
+/etc/alternatives/traceroute6
+/etc/alternatives/iptables
+/etc/alternatives/vacuumdb.1.gz
+/etc/alternatives/CREATE_USER.7.gz
+/etc/alternatives/ANALYZE.7.gz
+/etc/alternatives/pico
+/etc/alternatives/SELECT.7.gz
+/etc/alternatives/INSERT.7.gz
+/etc/alternatives/lzless.1.gz
+/etc/alternatives/lzfgrep.1.gz
+/etc/alternatives/ALTER_EXTENSION.7.gz
+/etc/alternatives/clusterdb.1.gz
+/etc/alternatives/DROP_PROCEDURE.7.gz
+/etc/alternatives/SET.7.gz
+/etc/alternatives/DROP_CONVERSION.7.gz
+/etc/alternatives/faked.1.gz
+/etc/alternatives/view.1.gz
+/etc/alternatives/faked.fr.1.gz
+/etc/alternatives/x-terminal-emulator
+/etc/alternatives/montage
+/etc/alternatives/CREATE_CONVERSION.7.gz
+/etc/alternatives/write.1.gz
+/etc/alternatives/c99.1.gz
+/etc/alternatives/DROP_GROUP.7.gz
+/etc/alternatives/ex.ru.1.gz
+/etc/alternatives/LOAD.7.gz
+/etc/alternatives/pftp.1.gz
+/etc/alternatives/DROP_TEXT_SEARCH_CONFIGURATION.7.gz
+/etc/alternatives/SAVEPOINT.7.gz
+/etc/alternatives/ip6tables
+/etc/alternatives/import.1.gz
+/etc/alternatives/REINDEX.7.gz
+/etc/alternatives/DELETE.7.gz
+/etc/alternatives/CREATE_RULE.7.gz
+/etc/alternatives/lzma.1.gz
+/etc/alternatives/REFRESH_MATERIALIZED_VIEW.7.gz
+/etc/alternatives/ALTER_USER_MAPPING.7.gz
+/etc/alternatives/animate.1.gz
+/etc/alternatives/SET_TRANSACTION.7.gz
+/etc/alternatives/DROP_VIEW.7.gz
+/etc/alternatives/DEALLOCATE.7.gz
+/etc/alternatives/CREATE_TEXT_SEARCH_TEMPLATE.7.gz
+/etc/alternatives/ALTER_EVENT_TRIGGER.7.gz
+/etc/alternatives/text.plymouth
+/etc/alternatives/SELECT_INTO.7.gz
+/etc/alternatives/vi.de.1.gz
+/etc/alternatives/CREATE_COLLATION.7.gz
+/etc/alternatives/ALTER_DOMAIN.7.gz
+/etc/alternatives/import-im6.1.gz
+/etc/alternatives/ebtables-restore
+/etc/alternatives/pftp
+/etc/alternatives/DROP_PUBLICATION.7.gz
+/etc/alternatives/ROLLBACK_TO_SAVEPOINT.7.gz
+/etc/alternatives/DROP_SERVER.7.gz
+/etc/alternatives/DROP_TRANSFORM.7.gz
+/etc/alternatives/ALTER_SEQUENCE.7.gz
+/etc/alternatives/VACUUM.7.gz
+/etc/alternatives/convert-im6
+/etc/alternatives/DROP_TYPE.7.gz
+/etc/alternatives/CREATE_EXTENSION.7.gz
+/etc/alternatives/SHOW.7.gz
+/etc/alternatives/CREATE_PUBLICATION.7.gz
+/etc/alternatives/view.ru.1.gz
+/etc/alternatives/composite-im6.1.gz
+/etc/alternatives/w
+/etc/alternatives/CREATE_PROCEDURE.7.gz
+/etc/alternatives/netcat
+/etc/alternatives/ALTER_ROUTINE.7.gz
+/etc/alternatives/pg_dumpall.1.gz
+/etc/alternatives/DROP_DATABASE.7.gz
+/etc/alternatives/dropuser.1.gz
+/etc/alternatives/view.da.1.gz
+/etc/alternatives/vimdiff
+/etc/alternatives/pg_test_timing.1.gz
+/etc/alternatives/iptables-save
+/etc/alternatives/lzcmp.1.gz
+/etc/alternatives/convert-im6.1.gz
+/etc/alternatives/CREATE_DOMAIN.7.gz
+/etc/alternatives/DROP_TABLESPACE.7.gz
+/etc/alternatives/ALTER_DEFAULT_PRIVILEGES.7.gz
+/etc/alternatives/DROP_TEXT_SEARCH_DICTIONARY.7.gz
+/etc/alternatives/DROP_FUNCTION.7.gz
+/etc/alternatives/rmt.8.gz
+/etc/alternatives/SET_ROLE.7.gz
+/etc/alternatives/DROP_POLICY.7.gz
+/etc/alternatives/PREPARE_TRANSACTION.7.gz
+/etc/alternatives/lzless
+/etc/alternatives/SET_CONSTRAINTS.7.gz
+/etc/alternatives/DROP_TABLE.7.gz
+/etc/alternatives/createuser.1.gz
+/etc/alternatives/ALTER_PROCEDURE.7.gz
+/etc/alternatives/pager
+/etc/alternatives/MOVE.7.gz
+/etc/alternatives/lzcmp
+/etc/alternatives/IMPORT_FOREIGN_SCHEMA.7.gz
+/etc/alternatives/CREATE_TRIGGER.7.gz
+/etc/alternatives/view
+/etc/alternatives/x-terminal-emulator.1.gz
+/etc/alternatives/CLUSTER.7.gz
+/etc/alternatives/c89
+/etc/alternatives/display.1.gz
+/etc/alternatives/pg_ctl.1.gz
+/etc/alternatives/initdb.1.gz
+/etc/alternatives/ALTER_SERVER.7.gz
+/etc/alternatives/pgbench.1.gz
+/etc/alternatives/ABORT.7.gz
+/etc/alternatives/DECLARE.7.gz
+/etc/alternatives/CREATE_POLICY.7.gz
+/etc/alternatives/sar
+/etc/alternatives/conjure-im6
+/etc/alternatives/pico.1.gz
+/etc/alternatives/COMMIT.7.gz
+/etc/alternatives/nc.1.gz
+/etc/alternatives/conjure
+/etc/alternatives/compare-im6
+/etc/alternatives/pinentry
+/etc/alternatives/rview
+/etc/alternatives/netcat.1.gz
+/etc/alternatives/CREATE_ACCESS_METHOD.7.gz
+/etc/alternatives/DROP_INDEX.7.gz
+/etc/alternatives/DROP_TEXT_SEARCH_PARSER.7.gz
+/etc/alternatives/CREATE_ROLE.7.gz
+/etc/alternatives/ROLLBACK_PREPARED.7.gz
+/etc/alternatives/animate-im6
+/etc/alternatives/DROP_SUBSCRIPTION.7.gz
+/etc/alternatives/vi.1.gz
+/etc/alternatives/RELEASE_SAVEPOINT.7.gz
+/etc/alternatives/ALTER_VIEW.7.gz
+/etc/alternatives/CREATE_CAST.7.gz
+/etc/alternatives/SET_SESSION_AUTHORIZATION.7.gz
+/etc/alternatives/sar.1.gz
+/etc/alternatives/vi.ru.1.gz
+/etc/alternatives/UPDATE.7.gz
+/etc/alternatives/mt
+/etc/alternatives/compare-im6.1.gz
+/etc/alternatives/editor
+/etc/alternatives/ebtables-save
+/etc/alternatives/ALTER_SUBSCRIPTION.7.gz
+/etc/alternatives/CREATE_GROUP.7.gz
+/etc/alternatives/c89.1.gz
+/etc/alternatives/ex.pl.1.gz
+/etc/alternatives/README
+/etc/alternatives/RESET.7.gz
+/etc/alternatives/DISCARD.7.gz
+/etc/alternatives/ROLLBACK.7.gz
+/etc/alternatives/DROP_FOREIGN_DATA_WRAPPER.7.gz
+/etc/alternatives/c99
+/etc/alternatives/cc.1.gz
+/etc/alternatives/ALTER_TEXT_SEARCH_DICTIONARY.7.gz
+/etc/alternatives/pg_waldump.1.gz
+/etc/alternatives/DROP_ROUTINE.7.gz
+/etc/alternatives/CREATE_MATERIALIZED_VIEW.7.gz
+/etc/alternatives/ebtables
+/etc/alternatives/CREATE_TEXT_SEARCH_DICTIONARY.7.gz
+/etc/alternatives/w.1.gz
+/etc/alternatives/psql.1.gz
+/etc/alternatives/DROP_AGGREGATE.7.gz
+/etc/alternatives/view.ja.1.gz
+/etc/alternatives/vi.ja.1.gz
+/etc/alternatives/UNLISTEN.7.gz
+/etc/alternatives/ALTER_OPERATOR.7.gz
+/etc/alternatives/from.1.gz
+/etc/alternatives/CREATE_LANGUAGE.7.gz
+/etc/alternatives/CREATE_USER_MAPPING.7.gz
+/etc/alternatives/ALTER_DATABASE.7.gz
+/etc/logrotate.d
+/etc/logrotate.d/ubuntu-advantage-tools
+/etc/logrotate.d/dpkg
+/etc/logrotate.d/apport
+/etc/logrotate.d/apt
+/etc/logrotate.d/wtmp
+/etc/logrotate.d/unattended-upgrades
+/etc/logrotate.d/bootlog
+/etc/logrotate.d/btmp
+/etc/logrotate.d/ufw
+/etc/logrotate.d/postgresql-common
+/etc/logrotate.d/rsyslog
+/etc/logrotate.d/alternatives
+/etc/bash_completion.d
+/etc/bash_completion.d/apport_completion
+/etc/bash_completion.d/git-prompt
+/etc/cron.daily
+/etc/cron.daily/dpkg
+/etc/cron.daily/apport
+/etc/cron.daily/man-db
+/etc/cron.daily/bsdmainutils
+/etc/cron.daily/apt-compat
+/etc/cron.daily/sysstat
+/etc/cron.daily/popularity-contest
+/etc/cron.daily/.placeholder
+/etc/cron.daily/update-notifier-common
+/etc/cron.daily/logrotate
+/etc/modules
+/etc/ssh
+/etc/ssh/moduli
+/etc/ssh/sshd_config.d
+/etc/ssh/sshd_config
+/etc/ssh/ssh_config
+/etc/ssh/ssh_config.d
+/etc/ssh/ssh_import_id
+/etc/kernel-img.conf
+/etc/network
+/etc/network/if-pre-up.d
+/etc/network/if-pre-up.d/ethtool
+/etc/network/if-up.d
+/etc/network/if-up.d/ethtool
+[1m[7m%[27m[1m[0m                                                                            +omz_termsupport_precmd:1> [[ '' != true ]]
++omz_termsupport_precmd:2> title '%15<..<%~%<<' '%n@%m:%~'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%n@%m:%~'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%n@%m:%~\a'
+]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib+title:13> print -Pn '\e]1;%15\<..\<%~%\<\<\a'
+]1;..ping-Cart/lib+_zsh_highlight_main__precmd_hook:3> setopt localoptions
++_zsh_highlight_main__precmd_hook:4> eval '[[ -o warnnestedvar ]]'
++(eval):1> [[ -o warnnestedvar ]]
++_zsh_highlight_main__precmd_hook:8> _zsh_highlight_main__command_type_cache=( ) 
++zsh:5> git_prompt_info
++git_prompt_info:1> dirty=+git_prompt_info:1> parse_git_dirty
++parse_git_dirty:1> local STATUS
++parse_git_dirty:2> local -a FLAGS
++parse_git_dirty:3> FLAGS=( --porcelain ) 
++parse_git_dirty:4> [[+parse_git_dirty:4> __git_prompt_git config --get oh-my-zsh.hide-dirty
++__git_prompt_git:1> GIT_OPTIONAL_LOCKS=0 git config --get oh-my-zsh.hide-dirty
++parse_git_dirty:4> [[ '' != 1 ]]
++parse_git_dirty:5> [[ '' == true ]]
++parse_git_dirty:8> case  (git)
++parse_git_dirty:8> case  (*)
++parse_git_dirty:15> FLAGS+='--ignore-submodules=dirty' 
++parse_git_dirty:18> STATUS=+parse_git_dirty:18> STATUS=+parse_git_dirty:18> tail -n 1
++parse_git_dirty:18> STATUS='?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' 
++parse_git_dirty:20> [[ -n '?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' ]]
++parse_git_dirty:21> echo $'%{\C-[[34m%}) %{\C-[[33m%}✗'
++git_prompt_info:1> dirty=$'%{\C-[[34m%}) %{\C-[[33m%}✗' 
++git_prompt_info:2> __git_ps1 $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} '
++__git_ps1:3> local exit=0
++__git_ps1:4> local pcmode=no
++__git_ps1:5> local detached=no
++__git_ps1:6> local ps1pc_start='\u@\h:\w '
++__git_ps1:7> local ps1pc_end='\$ '
++__git_ps1:8> local printf_format=' (%s)'
++__git_ps1:10> case 1 (2 | 3)
++__git_ps1:10> case 1 (0 | 1)
++__git_ps1:20> printf_format=$'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' 
++__git_ps1:59> local ps1_expanded=yes
++__git_ps1:60> [ -z 5.8 ']'
++__git_ps1:60> [[ -o PROMPT_SUBST ]]
++__git_ps1:61> [ -z '' ']'
++__git_ps1:63> local repo_info rev_parse_exit_code
++__git_ps1:64> repo_info=+__git_ps1:64> git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --short HEAD
++__git_ps1:64> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' 
++__git_ps1:67> rev_parse_exit_code=0 
++__git_ps1:69> [ -z $'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' ']'
++__git_ps1:73> local short_sha=''
++__git_ps1:74> [ 0 '=' 0 ']'
++__git_ps1:75> short_sha=792c7c302 
++__git_ps1:76> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue' 
++__git_ps1:78> local inside_worktree=true
++__git_ps1:79> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse' 
++__git_ps1:80> local bare_repo=false
++__git_ps1:81> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse' 
++__git_ps1:82> local inside_gitdir=false
++__git_ps1:83> local g=/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git
++__git_ps1:85> [ true '=' true ']'
++__git_ps1:86> [ -n '' ']'
++__git_ps1:93> local sparse=''
++__git_ps1:94> [ -z '' ']'
++__git_ps1:95> [ -z '' ']'
++__git_ps1:96> git config --bool core.sparseCheckout
++__git_ps1:96> [ '' '=' true ']'
++__git_ps1:100> local r=''
++__git_ps1:101> local b=''
++__git_ps1:102> local step=''
++__git_ps1:103> local total=''
++__git_ps1:104> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-merge ']'
++__git_ps1:110> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-apply ']'
++__git_ps1:121> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/MERGE_HEAD ']'
++__git_ps1:123> __git_sequencer_status
++__git_sequencer_status:2> local todo
++__git_sequencer_status:3> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/CHERRY_PICK_HEAD
++__git_sequencer_status:7> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/REVERT_HEAD
++__git_sequencer_status:11> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo todo
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo
++__git_sequencer_status:24> return 1
++__git_ps1:125> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/BISECT_LOG ']'
++__git_ps1:129> [ -n '' ']'
++__git_ps1:131> [ -h /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD ']'
++__git_ps1:135> local head=''
++__git_ps1:136> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD head
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD
++__git_eread:2> IFS=$'\C-M\n' +__git_eread:2> read head
++__git_ps1:140> b=refs/heads/master 
++__git_ps1:141> [ 'ref: refs/heads/master' '=' refs/heads/master ']'
++__git_ps1:163> [ -n '' ']'
++__git_ps1:167> local w=''
++__git_ps1:168> local i=''
++__git_ps1:169> local s=''
++__git_ps1:170> local u=''
++__git_ps1:171> local h=''
++__git_ps1:172> local c=''
++__git_ps1:173> local p=''
++__git_ps1:174> local upstream=''
++__git_ps1:176> [ true '=' false ']'
++__git_ps1:182> [ true '=' true ']'
++__git_ps1:183> [ -n '' ']'
++__git_ps1:192> [ -n '' ']'
++__git_ps1:198> [ -n '' ']'
++__git_ps1:205> [ -n '' ']'
++__git_ps1:210> [ -n '' ']'
++__git_ps1:215> local z=' '
++__git_ps1:217> b=master 
++__git_ps1:218> [ no '=' yes ']'
++__git_ps1:224> [ -n '' ']'
++__git_ps1:230> local f=''
++__git_ps1:231> local gitstring=master
++__git_ps1:233> [ no '=' yes ']'
++__git_ps1:241> printf -- $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' master
++__git_ps1:244> return 0
+[0m[27m[24m[J[01;31m➜  [36mlib[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mfind[39m [4m/etc[24m - type f -mindepth[?1l>[?2004l
++omz_termsupport_preexec:1> [[ '' != true ]]
++omz_termsupport_preexec:3> emulate -L zsh
++omz_termsupport_preexec:4> setopt extended_glob
++omz_termsupport_preexec:7> local -a cmdargs
++omz_termsupport_preexec:8> cmdargs=( find /etc -type f -mindepth ) 
++omz_termsupport_preexec:10> [[ find = fg ]]
++omz_termsupport_preexec:44> local CMD=find
++omz_termsupport_preexec:45> local LINE='find /etc -type f -mindepth'
++omz_termsupport_preexec:47> title find '%100>...>find /etc -type f -mindepth%<<'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%100>...>find /etc -type f -mindepth%<<'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%100\>...\>find\ /etc\ -type\ f\ -mindepth%\<\<\a'
+]2;find /etc -type f -mindepth+title:13> print -Pn '\e]1;find\a'
+]1;find+_zsh_highlight_preexec_hook:2> typeset -g _ZSH_HIGHLIGHT_PRIOR_BUFFER=''
++_zsh_highlight_preexec_hook:3> typeset -gi _ZSH_HIGHLIGHT_PRIOR_CURSOR=''
++zsh:5> find /etc -type f -mindepth
+find: warning: you have specified the global option -mindepth after the argument -type, but global options are not positional, i.e., -mindepth affects tests specified before it as well as those specified after it.  Please specify global options before other arguments.
+find: missing argument to `-mindepth'
+[1m[7m%[27m[1m[0m                                                                            +omz_termsupport_precmd:1> [[ '' != true ]]
++omz_termsupport_precmd:2> title '%15<..<%~%<<' '%n@%m:%~'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%n@%m:%~'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%n@%m:%~\a'
+]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib+title:13> print -Pn '\e]1;%15\<..\<%~%\<\<\a'
+]1;..ping-Cart/lib+_zsh_highlight_main__precmd_hook:3> setopt localoptions
++_zsh_highlight_main__precmd_hook:4> eval '[[ -o warnnestedvar ]]'
++(eval):1> [[ -o warnnestedvar ]]
++_zsh_highlight_main__precmd_hook:8> _zsh_highlight_main__command_type_cache=( ) 
++zsh:6> git_prompt_info
++git_prompt_info:1> dirty=+git_prompt_info:1> parse_git_dirty
++parse_git_dirty:1> local STATUS
++parse_git_dirty:2> local -a FLAGS
++parse_git_dirty:3> FLAGS=( --porcelain ) 
++parse_git_dirty:4> [[+parse_git_dirty:4> __git_prompt_git config --get oh-my-zsh.hide-dirty
++__git_prompt_git:1> GIT_OPTIONAL_LOCKS=0 git config --get oh-my-zsh.hide-dirty
++parse_git_dirty:4> [[ '' != 1 ]]
++parse_git_dirty:5> [[ '' == true ]]
++parse_git_dirty:8> case  (git)
++parse_git_dirty:8> case  (*)
++parse_git_dirty:15> FLAGS+='--ignore-submodules=dirty' 
++parse_git_dirty:18> STATUS=+parse_git_dirty:18> STATUS=+parse_git_dirty:18> tail -n 1
++parse_git_dirty:18> STATUS='?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' 
++parse_git_dirty:20> [[ -n '?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' ]]
++parse_git_dirty:21> echo $'%{\C-[[34m%}) %{\C-[[33m%}✗'
++git_prompt_info:1> dirty=$'%{\C-[[34m%}) %{\C-[[33m%}✗' 
++git_prompt_info:2> __git_ps1 $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} '
++__git_ps1:3> local exit=0
++__git_ps1:4> local pcmode=no
++__git_ps1:5> local detached=no
++__git_ps1:6> local ps1pc_start='\u@\h:\w '
++__git_ps1:7> local ps1pc_end='\$ '
++__git_ps1:8> local printf_format=' (%s)'
++__git_ps1:10> case 1 (2 | 3)
++__git_ps1:10> case 1 (0 | 1)
++__git_ps1:20> printf_format=$'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' 
++__git_ps1:59> local ps1_expanded=yes
++__git_ps1:60> [ -z 5.8 ']'
++__git_ps1:60> [[ -o PROMPT_SUBST ]]
++__git_ps1:61> [ -z '' ']'
++__git_ps1:63> local repo_info rev_parse_exit_code
++__git_ps1:64> repo_info=+__git_ps1:64> git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --short HEAD
++__git_ps1:64> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' 
++__git_ps1:67> rev_parse_exit_code=0 
++__git_ps1:69> [ -z $'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' ']'
++__git_ps1:73> local short_sha=''
++__git_ps1:74> [ 0 '=' 0 ']'
++__git_ps1:75> short_sha=792c7c302 
++__git_ps1:76> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue' 
++__git_ps1:78> local inside_worktree=true
++__git_ps1:79> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse' 
++__git_ps1:80> local bare_repo=false
++__git_ps1:81> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse' 
++__git_ps1:82> local inside_gitdir=false
++__git_ps1:83> local g=/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git
++__git_ps1:85> [ true '=' true ']'
++__git_ps1:86> [ -n '' ']'
++__git_ps1:93> local sparse=''
++__git_ps1:94> [ -z '' ']'
++__git_ps1:95> [ -z '' ']'
++__git_ps1:96> git config --bool core.sparseCheckout
++__git_ps1:96> [ '' '=' true ']'
++__git_ps1:100> local r=''
++__git_ps1:101> local b=''
++__git_ps1:102> local step=''
++__git_ps1:103> local total=''
++__git_ps1:104> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-merge ']'
++__git_ps1:110> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-apply ']'
++__git_ps1:121> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/MERGE_HEAD ']'
++__git_ps1:123> __git_sequencer_status
++__git_sequencer_status:2> local todo
++__git_sequencer_status:3> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/CHERRY_PICK_HEAD
++__git_sequencer_status:7> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/REVERT_HEAD
++__git_sequencer_status:11> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo todo
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo
++__git_sequencer_status:24> return 1
++__git_ps1:125> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/BISECT_LOG ']'
++__git_ps1:129> [ -n '' ']'
++__git_ps1:131> [ -h /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD ']'
++__git_ps1:135> local head=''
++__git_ps1:136> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD head
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD
++__git_eread:2> IFS=$'\C-M\n' +__git_eread:2> read head
++__git_ps1:140> b=refs/heads/master 
++__git_ps1:141> [ 'ref: refs/heads/master' '=' refs/heads/master ']'
++__git_ps1:163> [ -n '' ']'
++__git_ps1:167> local w=''
++__git_ps1:168> local i=''
++__git_ps1:169> local s=''
++__git_ps1:170> local u=''
++__git_ps1:171> local h=''
++__git_ps1:172> local c=''
++__git_ps1:173> local p=''
++__git_ps1:174> local upstream=''
++__git_ps1:176> [ true '=' false ']'
++__git_ps1:182> [ true '=' true ']'
++__git_ps1:183> [ -n '' ']'
++__git_ps1:192> [ -n '' ']'
++__git_ps1:198> [ -n '' ']'
++__git_ps1:205> [ -n '' ']'
++__git_ps1:210> [ -n '' ']'
++__git_ps1:215> local z=' '
++__git_ps1:217> b=master 
++__git_ps1:218> [ no '=' yes ']'
++__git_ps1:224> [ -n '' ']'
++__git_ps1:230> local f=''
++__git_ps1:231> local gitstring=master
++__git_ps1:233> [ no '=' yes ']'
++__git_ps1:241> printf -- $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' master
++__git_ps1:244> return 0
+[0m[27m[24m[J[01;31m➜  [36mlib[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mfind[39m [4m/etc[24m -type f -mindepthdepth depth adepthxdepth[5C 1[?1l>[?2004l
++omz_termsupport_preexec:1> [[ '' != true ]]
++omz_termsupport_preexec:3> emulate -L zsh
++omz_termsupport_preexec:4> setopt extended_glob
++omz_termsupport_preexec:7> local -a cmdargs
++omz_termsupport_preexec:8> cmdargs=( find /etc -type f -maxdepth 1 ) 
++omz_termsupport_preexec:10> [[ find = fg ]]
++omz_termsupport_preexec:44> local CMD=find
++omz_termsupport_preexec:45> local LINE='find /etc -type f -maxdepth 1'
++omz_termsupport_preexec:47> title find '%100>...>find /etc -type f -maxdepth 1%<<'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%100>...>find /etc -type f -maxdepth 1%<<'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%100\>...\>find\ /etc\ -type\ f\ -maxdepth\ 1%\<\<\a'
+]2;find /etc -type f -maxdepth 1+title:13> print -Pn '\e]1;find\a'
+]1;find+_zsh_highlight_preexec_hook:2> typeset -g _ZSH_HIGHLIGHT_PRIOR_BUFFER=''
++_zsh_highlight_preexec_hook:3> typeset -gi _ZSH_HIGHLIGHT_PRIOR_CURSOR=''
++zsh:6> find /etc -type f -maxdepth 1
+find: warning: you have specified the global option -maxdepth after the argument -type, but global options are not positional, i.e., -maxdepth affects tests specified before it as well as those specified after it.  Please specify global options before other arguments.
+/etc/services
+/etc/lsb-release
+/etc/protocols
+/etc/rsyslog.conf
+/etc/ltrace.conf
+/etc/inputrc
+/etc/gai.conf
+/etc/crontab
+/etc/popularity-contest.conf
+/etc/xattr.conf
+/etc/group-
+/etc/subuid-
+/etc/legal
+/etc/sensors3.conf
+/etc/ec2_version
+/etc/machine-id
+/etc/ld.so.conf
+/etc/overlayroot.conf
+/etc/nanorc
+/etc/wgetrc
+/etc/multipath.conf
+/etc/hosts.deny
+/etc/adduser.conf
+/etc/subuid
+/etc/ucf.conf
+/etc/magic.mime
+/etc/fuse.conf
+/etc/vdpau_wrapper.cfg
+/etc/manpath.config
+/etc/hosts
+/etc/nsswitch.conf
+/etc/libaudit.conf
+/etc/locale.alias
+/etc/ca-certificates.conf
+/etc/sudoers
+/etc/shadow-
+/etc/overlayroot.local.conf
+/etc/passwd
+/etc/screenrc
+/etc/bash.bashrc
+/etc/deluser.conf
+/etc/mime.types
+/etc/timezone
+/etc/locale.gen
+/etc/bindresvport.blacklist
+/etc/login.defs
+/etc/e2scrub.conf
+/etc/ld.so.cache
+/etc/profile
+/etc/at.deny
+/etc/issue
+/etc/shadow
+/etc/hdparm.conf
+/etc/host.conf
+/etc/magic
+/etc/hostname
+/etc/fstab
+/etc/papersize
+/etc/mailcap.order
+/etc/environment
+/etc/gshadow-
+/etc/pam.conf
+/etc/gshadow
+/etc/sysctl.conf
+/etc/subgid
+/etc/zsh_command_not_found
+/etc/shells
+/etc/mke2fs.conf
+/etc/issue.net
+/etc/group
+/etc/.pwd.lock
+/etc/networks
+/etc/rpc
+/etc/mailcap
+/etc/sos.conf
+/etc/subgid-
+/etc/hosts.allow
+/etc/ethertypes
+/etc/debian_version
+/etc/debconf.conf
+/etc/crypttab
+/etc/logrotate.conf
+/etc/bash_completion
+/etc/passwd-
+/etc/modules
+/etc/kernel-img.conf
+[1m[7m%[27m[1m[0m                                                                            +omz_termsupport_precmd:1> [[ '' != true ]]
++omz_termsupport_precmd:2> title '%15<..<%~%<<' '%n@%m:%~'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%n@%m:%~'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%n@%m:%~\a'
+]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib+title:13> print -Pn '\e]1;%15\<..\<%~%\<\<\a'
+]1;..ping-Cart/lib+_zsh_highlight_main__precmd_hook:3> setopt localoptions
++_zsh_highlight_main__precmd_hook:4> eval '[[ -o warnnestedvar ]]'
++(eval):1> [[ -o warnnestedvar ]]
++_zsh_highlight_main__precmd_hook:8> _zsh_highlight_main__command_type_cache=( ) 
++zsh:7> git_prompt_info
++git_prompt_info:1> dirty=+git_prompt_info:1> parse_git_dirty
++parse_git_dirty:1> local STATUS
++parse_git_dirty:2> local -a FLAGS
++parse_git_dirty:3> FLAGS=( --porcelain ) 
++parse_git_dirty:4> [[+parse_git_dirty:4> __git_prompt_git config --get oh-my-zsh.hide-dirty
++__git_prompt_git:1> GIT_OPTIONAL_LOCKS=0 git config --get oh-my-zsh.hide-dirty
++parse_git_dirty:4> [[ '' != 1 ]]
++parse_git_dirty:5> [[ '' == true ]]
++parse_git_dirty:8> case  (git)
++parse_git_dirty:8> case  (*)
++parse_git_dirty:15> FLAGS+='--ignore-submodules=dirty' 
++parse_git_dirty:18> STATUS=+parse_git_dirty:18> STATUS=+parse_git_dirty:18> tail -n 1
++parse_git_dirty:18> STATUS='?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' 
++parse_git_dirty:20> [[ -n '?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' ]]
++parse_git_dirty:21> echo $'%{\C-[[34m%}) %{\C-[[33m%}✗'
++git_prompt_info:1> dirty=$'%{\C-[[34m%}) %{\C-[[33m%}✗' 
++git_prompt_info:2> __git_ps1 $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} '
++__git_ps1:3> local exit=0
++__git_ps1:4> local pcmode=no
++__git_ps1:5> local detached=no
++__git_ps1:6> local ps1pc_start='\u@\h:\w '
++__git_ps1:7> local ps1pc_end='\$ '
++__git_ps1:8> local printf_format=' (%s)'
++__git_ps1:10> case 1 (2 | 3)
++__git_ps1:10> case 1 (0 | 1)
++__git_ps1:20> printf_format=$'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' 
++__git_ps1:59> local ps1_expanded=yes
++__git_ps1:60> [ -z 5.8 ']'
++__git_ps1:60> [[ -o PROMPT_SUBST ]]
++__git_ps1:61> [ -z '' ']'
++__git_ps1:63> local repo_info rev_parse_exit_code
++__git_ps1:64> repo_info=+__git_ps1:64> git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --short HEAD
++__git_ps1:64> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' 
++__git_ps1:67> rev_parse_exit_code=0 
++__git_ps1:69> [ -z $'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' ']'
++__git_ps1:73> local short_sha=''
++__git_ps1:74> [ 0 '=' 0 ']'
++__git_ps1:75> short_sha=792c7c302 
++__git_ps1:76> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue' 
++__git_ps1:78> local inside_worktree=true
++__git_ps1:79> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse' 
++__git_ps1:80> local bare_repo=false
++__git_ps1:81> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse' 
++__git_ps1:82> local inside_gitdir=false
++__git_ps1:83> local g=/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git
++__git_ps1:85> [ true '=' true ']'
++__git_ps1:86> [ -n '' ']'
++__git_ps1:93> local sparse=''
++__git_ps1:94> [ -z '' ']'
++__git_ps1:95> [ -z '' ']'
++__git_ps1:96> git config --bool core.sparseCheckout
++__git_ps1:96> [ '' '=' true ']'
++__git_ps1:100> local r=''
++__git_ps1:101> local b=''
++__git_ps1:102> local step=''
++__git_ps1:103> local total=''
++__git_ps1:104> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-merge ']'
++__git_ps1:110> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-apply ']'
++__git_ps1:121> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/MERGE_HEAD ']'
++__git_ps1:123> __git_sequencer_status
++__git_sequencer_status:2> local todo
++__git_sequencer_status:3> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/CHERRY_PICK_HEAD
++__git_sequencer_status:7> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/REVERT_HEAD
++__git_sequencer_status:11> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo todo
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo
++__git_sequencer_status:24> return 1
++__git_ps1:125> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/BISECT_LOG ']'
++__git_ps1:129> [ -n '' ']'
++__git_ps1:131> [ -h /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD ']'
++__git_ps1:135> local head=''
++__git_ps1:136> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD head
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD
++__git_eread:2> IFS=$'\C-M\n' +__git_eread:2> read head
++__git_ps1:140> b=refs/heads/master 
++__git_ps1:141> [ 'ref: refs/heads/master' '=' refs/heads/master ']'
++__git_ps1:163> [ -n '' ']'
++__git_ps1:167> local w=''
++__git_ps1:168> local i=''
++__git_ps1:169> local s=''
++__git_ps1:170> local u=''
++__git_ps1:171> local h=''
++__git_ps1:172> local c=''
++__git_ps1:173> local p=''
++__git_ps1:174> local upstream=''
++__git_ps1:176> [ true '=' false ']'
++__git_ps1:182> [ true '=' true ']'
++__git_ps1:183> [ -n '' ']'
++__git_ps1:192> [ -n '' ']'
++__git_ps1:198> [ -n '' ']'
++__git_ps1:205> [ -n '' ']'
++__git_ps1:210> [ -n '' ']'
++__git_ps1:215> local z=' '
++__git_ps1:217> b=master 
++__git_ps1:218> [ no '=' yes ']'
++__git_ps1:224> [ -n '' ']'
++__git_ps1:230> local f=''
++__git_ps1:231> local gitstring=master
++__git_ps1:233> [ no '=' yes ']'
++__git_ps1:241> printf -- $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' master
++__git_ps1:244> return 0
+[0m[27m[24m[J[01;32m➜  [36mlib[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31ma[0m[39m[0m[39ma=abc[?1l>[?2004l
++omz_termsupport_preexec:1> [[ '' != true ]]
++omz_termsupport_preexec:3> emulate -L zsh
++omz_termsupport_preexec:4> setopt extended_glob
++omz_termsupport_preexec:7> local -a cmdargs
++omz_termsupport_preexec:8> cmdargs=( 'a=abc' ) 
++omz_termsupport_preexec:10> [[ 'a=abc' = fg ]]
++omz_termsupport_preexec:44> local CMD=''
++omz_termsupport_preexec:45> local LINE='a=abc '
++omz_termsupport_preexec:47> title '' '%100>...>a=abc %<<'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%100>...>a=abc %<<'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%100\>...\>a=abc\ %\<\<\a'
+]2;a=abc +title:13> print -Pn '\e]1;\a'
+]1;+_zsh_highlight_preexec_hook:2> typeset -g _ZSH_HIGHLIGHT_PRIOR_BUFFER=''
++_zsh_highlight_preexec_hook:3> typeset -gi _ZSH_HIGHLIGHT_PRIOR_CURSOR=''
++zsh:7> a=abc 
+[1m[7m%[27m[1m[0m                                                                            +omz_termsupport_precmd:1> [[ '' != true ]]
++omz_termsupport_precmd:2> title '%15<..<%~%<<' '%n@%m:%~'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%n@%m:%~'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%n@%m:%~\a'
+]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib+title:13> print -Pn '\e]1;%15\<..\<%~%\<\<\a'
+]1;..ping-Cart/lib+_zsh_highlight_main__precmd_hook:3> setopt localoptions
++_zsh_highlight_main__precmd_hook:4> eval '[[ -o warnnestedvar ]]'
++(eval):1> [[ -o warnnestedvar ]]
++_zsh_highlight_main__precmd_hook:8> _zsh_highlight_main__command_type_cache=( ) 
++zsh:8> git_prompt_info
++git_prompt_info:1> dirty=+git_prompt_info:1> parse_git_dirty
++parse_git_dirty:1> local STATUS
++parse_git_dirty:2> local -a FLAGS
++parse_git_dirty:3> FLAGS=( --porcelain ) 
++parse_git_dirty:4> [[+parse_git_dirty:4> __git_prompt_git config --get oh-my-zsh.hide-dirty
++__git_prompt_git:1> GIT_OPTIONAL_LOCKS=0 git config --get oh-my-zsh.hide-dirty
++parse_git_dirty:4> [[ '' != 1 ]]
++parse_git_dirty:5> [[ '' == true ]]
++parse_git_dirty:8> case  (git)
++parse_git_dirty:8> case  (*)
++parse_git_dirty:15> FLAGS+='--ignore-submodules=dirty' 
++parse_git_dirty:18> STATUS=+parse_git_dirty:18> STATUS=+parse_git_dirty:18> tail -n 1
++parse_git_dirty:18> STATUS='?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' 
++parse_git_dirty:20> [[ -n '?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' ]]
++parse_git_dirty:21> echo $'%{\C-[[34m%}) %{\C-[[33m%}✗'
++git_prompt_info:1> dirty=$'%{\C-[[34m%}) %{\C-[[33m%}✗' 
++git_prompt_info:2> __git_ps1 $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} '
++__git_ps1:3> local exit=0
++__git_ps1:4> local pcmode=no
++__git_ps1:5> local detached=no
++__git_ps1:6> local ps1pc_start='\u@\h:\w '
++__git_ps1:7> local ps1pc_end='\$ '
++__git_ps1:8> local printf_format=' (%s)'
++__git_ps1:10> case 1 (2 | 3)
++__git_ps1:10> case 1 (0 | 1)
++__git_ps1:20> printf_format=$'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' 
++__git_ps1:59> local ps1_expanded=yes
++__git_ps1:60> [ -z 5.8 ']'
++__git_ps1:60> [[ -o PROMPT_SUBST ]]
++__git_ps1:61> [ -z '' ']'
++__git_ps1:63> local repo_info rev_parse_exit_code
++__git_ps1:64> repo_info=+__git_ps1:64> git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --short HEAD
++__git_ps1:64> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' 
++__git_ps1:67> rev_parse_exit_code=0 
++__git_ps1:69> [ -z $'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' ']'
++__git_ps1:73> local short_sha=''
++__git_ps1:74> [ 0 '=' 0 ']'
++__git_ps1:75> short_sha=792c7c302 
++__git_ps1:76> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue' 
++__git_ps1:78> local inside_worktree=true
++__git_ps1:79> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse' 
++__git_ps1:80> local bare_repo=false
++__git_ps1:81> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse' 
++__git_ps1:82> local inside_gitdir=false
++__git_ps1:83> local g=/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git
++__git_ps1:85> [ true '=' true ']'
++__git_ps1:86> [ -n '' ']'
++__git_ps1:93> local sparse=''
++__git_ps1:94> [ -z '' ']'
++__git_ps1:95> [ -z '' ']'
++__git_ps1:96> git config --bool core.sparseCheckout
++__git_ps1:96> [ '' '=' true ']'
++__git_ps1:100> local r=''
++__git_ps1:101> local b=''
++__git_ps1:102> local step=''
++__git_ps1:103> local total=''
++__git_ps1:104> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-merge ']'
++__git_ps1:110> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-apply ']'
++__git_ps1:121> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/MERGE_HEAD ']'
++__git_ps1:123> __git_sequencer_status
++__git_sequencer_status:2> local todo
++__git_sequencer_status:3> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/CHERRY_PICK_HEAD
++__git_sequencer_status:7> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/REVERT_HEAD
++__git_sequencer_status:11> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo todo
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo
++__git_sequencer_status:24> return 1
++__git_ps1:125> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/BISECT_LOG ']'
++__git_ps1:129> [ -n '' ']'
++__git_ps1:131> [ -h /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD ']'
++__git_ps1:135> local head=''
++__git_ps1:136> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD head
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD
++__git_eread:2> IFS=$'\C-M\n' +__git_eread:2> read head
++__git_ps1:140> b=refs/heads/master 
++__git_ps1:141> [ 'ref: refs/heads/master' '=' refs/heads/master ']'
++__git_ps1:163> [ -n '' ']'
++__git_ps1:167> local w=''
++__git_ps1:168> local i=''
++__git_ps1:169> local s=''
++__git_ps1:170> local u=''
++__git_ps1:171> local h=''
++__git_ps1:172> local c=''
++__git_ps1:173> local p=''
++__git_ps1:174> local upstream=''
++__git_ps1:176> [ true '=' false ']'
++__git_ps1:182> [ true '=' true ']'
++__git_ps1:183> [ -n '' ']'
++__git_ps1:192> [ -n '' ']'
++__git_ps1:198> [ -n '' ']'
++__git_ps1:205> [ -n '' ']'
++__git_ps1:210> [ -n '' ']'
++__git_ps1:215> local z=' '
++__git_ps1:217> b=master 
++__git_ps1:218> [ no '=' yes ']'
++__git_ps1:224> [ -n '' ']'
++__git_ps1:230> local f=''
++__git_ps1:231> local gitstring=master
++__git_ps1:233> [ no '=' yes ']'
++__git_ps1:241> printf -- $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' master
++__git_ps1:244> return 0
+[0m[27m[24m[J[01;32m➜  [36mlib[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31ma[0m[39m[?1l>[?2004l
++omz_termsupport_preexec:1> [[ '' != true ]]
++omz_termsupport_preexec:3> emulate -L zsh
++omz_termsupport_preexec:4> setopt extended_glob
++omz_termsupport_preexec:7> local -a cmdargs
++omz_termsupport_preexec:8> cmdargs=( a ) 
++omz_termsupport_preexec:10> [[ a = fg ]]
++omz_termsupport_preexec:44> local CMD=a
++omz_termsupport_preexec:45> local LINE=a
++omz_termsupport_preexec:47> title a '%100>...>a%<<'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%100>...>a%<<'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%100\>...\>a%\<\<\a'
+]2;a+title:13> print -Pn '\e]1;a\a'
+]1;a+_zsh_highlight_preexec_hook:2> typeset -g _ZSH_HIGHLIGHT_PRIOR_BUFFER=''
++_zsh_highlight_preexec_hook:3> typeset -gi _ZSH_HIGHLIGHT_PRIOR_CURSOR=''
++zsh:8> a
+zsh: command not found: a
+[1m[7m%[27m[1m[0m                                                                            +omz_termsupport_precmd:1> [[ '' != true ]]
++omz_termsupport_precmd:2> title '%15<..<%~%<<' '%n@%m:%~'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%n@%m:%~'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%n@%m:%~\a'
+]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib+title:13> print -Pn '\e]1;%15\<..\<%~%\<\<\a'
+]1;..ping-Cart/lib+_zsh_highlight_main__precmd_hook:3> setopt localoptions
++_zsh_highlight_main__precmd_hook:4> eval '[[ -o warnnestedvar ]]'
++(eval):1> [[ -o warnnestedvar ]]
++_zsh_highlight_main__precmd_hook:8> _zsh_highlight_main__command_type_cache=( ) 
++zsh:9> git_prompt_info
++git_prompt_info:1> dirty=+git_prompt_info:1> parse_git_dirty
++parse_git_dirty:1> local STATUS
++parse_git_dirty:2> local -a FLAGS
++parse_git_dirty:3> FLAGS=( --porcelain ) 
++parse_git_dirty:4> [[+parse_git_dirty:4> __git_prompt_git config --get oh-my-zsh.hide-dirty
++__git_prompt_git:1> GIT_OPTIONAL_LOCKS=0 git config --get oh-my-zsh.hide-dirty
++parse_git_dirty:4> [[ '' != 1 ]]
++parse_git_dirty:5> [[ '' == true ]]
++parse_git_dirty:8> case  (git)
++parse_git_dirty:8> case  (*)
++parse_git_dirty:15> FLAGS+='--ignore-submodules=dirty' 
++parse_git_dirty:18> STATUS=+parse_git_dirty:18> STATUS=+parse_git_dirty:18> tail -n 1
++parse_git_dirty:18> STATUS='?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' 
++parse_git_dirty:20> [[ -n '?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' ]]
++parse_git_dirty:21> echo $'%{\C-[[34m%}) %{\C-[[33m%}✗'
++git_prompt_info:1> dirty=$'%{\C-[[34m%}) %{\C-[[33m%}✗' 
++git_prompt_info:2> __git_ps1 $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} '
++__git_ps1:3> local exit=0
++__git_ps1:4> local pcmode=no
++__git_ps1:5> local detached=no
++__git_ps1:6> local ps1pc_start='\u@\h:\w '
++__git_ps1:7> local ps1pc_end='\$ '
++__git_ps1:8> local printf_format=' (%s)'
++__git_ps1:10> case 1 (2 | 3)
++__git_ps1:10> case 1 (0 | 1)
++__git_ps1:20> printf_format=$'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' 
++__git_ps1:59> local ps1_expanded=yes
++__git_ps1:60> [ -z 5.8 ']'
++__git_ps1:60> [[ -o PROMPT_SUBST ]]
++__git_ps1:61> [ -z '' ']'
++__git_ps1:63> local repo_info rev_parse_exit_code
++__git_ps1:64> repo_info=+__git_ps1:64> git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --short HEAD
++__git_ps1:64> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' 
++__git_ps1:67> rev_parse_exit_code=0 
++__git_ps1:69> [ -z $'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' ']'
++__git_ps1:73> local short_sha=''
++__git_ps1:74> [ 0 '=' 0 ']'
++__git_ps1:75> short_sha=792c7c302 
++__git_ps1:76> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue' 
++__git_ps1:78> local inside_worktree=true
++__git_ps1:79> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse' 
++__git_ps1:80> local bare_repo=false
++__git_ps1:81> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse' 
++__git_ps1:82> local inside_gitdir=false
++__git_ps1:83> local g=/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git
++__git_ps1:85> [ true '=' true ']'
++__git_ps1:86> [ -n '' ']'
++__git_ps1:93> local sparse=''
++__git_ps1:94> [ -z '' ']'
++__git_ps1:95> [ -z '' ']'
++__git_ps1:96> git config --bool core.sparseCheckout
++__git_ps1:96> [ '' '=' true ']'
++__git_ps1:100> local r=''
++__git_ps1:101> local b=''
++__git_ps1:102> local step=''
++__git_ps1:103> local total=''
++__git_ps1:104> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-merge ']'
++__git_ps1:110> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-apply ']'
++__git_ps1:121> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/MERGE_HEAD ']'
++__git_ps1:123> __git_sequencer_status
++__git_sequencer_status:2> local todo
++__git_sequencer_status:3> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/CHERRY_PICK_HEAD
++__git_sequencer_status:7> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/REVERT_HEAD
++__git_sequencer_status:11> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo todo
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo
++__git_sequencer_status:24> return 1
++__git_ps1:125> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/BISECT_LOG ']'
++__git_ps1:129> [ -n '' ']'
++__git_ps1:131> [ -h /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD ']'
++__git_ps1:135> local head=''
++__git_ps1:136> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD head
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD
++__git_eread:2> IFS=$'\C-M\n' +__git_eread:2> read head
++__git_ps1:140> b=refs/heads/master 
++__git_ps1:141> [ 'ref: refs/heads/master' '=' refs/heads/master ']'
++__git_ps1:163> [ -n '' ']'
++__git_ps1:167> local w=''
++__git_ps1:168> local i=''
++__git_ps1:169> local s=''
++__git_ps1:170> local u=''
++__git_ps1:171> local h=''
++__git_ps1:172> local c=''
++__git_ps1:173> local p=''
++__git_ps1:174> local upstream=''
++__git_ps1:176> [ true '=' false ']'
++__git_ps1:182> [ true '=' true ']'
++__git_ps1:183> [ -n '' ']'
++__git_ps1:192> [ -n '' ']'
++__git_ps1:198> [ -n '' ']'
++__git_ps1:205> [ -n '' ']'
++__git_ps1:210> [ -n '' ']'
++__git_ps1:215> local z=' '
++__git_ps1:217> b=master 
++__git_ps1:218> [ no '=' yes ']'
++__git_ps1:224> [ -n '' ']'
++__git_ps1:230> local f=''
++__git_ps1:231> local gitstring=master
++__git_ps1:233> [ no '=' yes ']'
++__git_ps1:241> printf -- $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' master
++__git_ps1:244> return 0
+[0m[27m[24m[J[01;31m➜  [36mlib[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31ma[0m[39m[0m[39ma=abc[?1l>[?2004l
++omz_termsupport_preexec:1> [[ '' != true ]]
++omz_termsupport_preexec:3> emulate -L zsh
++omz_termsupport_preexec:4> setopt extended_glob
++omz_termsupport_preexec:7> local -a cmdargs
++omz_termsupport_preexec:8> cmdargs=( 'a=abc' ) 
++omz_termsupport_preexec:10> [[ 'a=abc' = fg ]]
++omz_termsupport_preexec:44> local CMD=''
++omz_termsupport_preexec:45> local LINE='a=abc '
++omz_termsupport_preexec:47> title '' '%100>...>a=abc %<<'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%100>...>a=abc %<<'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%100\>...\>a=abc\ %\<\<\a'
+]2;a=abc +title:13> print -Pn '\e]1;\a'
+]1;+_zsh_highlight_preexec_hook:2> typeset -g _ZSH_HIGHLIGHT_PRIOR_BUFFER=''
++_zsh_highlight_preexec_hook:3> typeset -gi _ZSH_HIGHLIGHT_PRIOR_CURSOR=''
++zsh:9> a=abc 
+[1m[7m%[27m[1m[0m                                                                            +omz_termsupport_precmd:1> [[ '' != true ]]
++omz_termsupport_precmd:2> title '%15<..<%~%<<' '%n@%m:%~'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%n@%m:%~'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%n@%m:%~\a'
+]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib+title:13> print -Pn '\e]1;%15\<..\<%~%\<\<\a'
+]1;..ping-Cart/lib+_zsh_highlight_main__precmd_hook:3> setopt localoptions
++_zsh_highlight_main__precmd_hook:4> eval '[[ -o warnnestedvar ]]'
++(eval):1> [[ -o warnnestedvar ]]
++_zsh_highlight_main__precmd_hook:8> _zsh_highlight_main__command_type_cache=( ) 
++zsh:10> git_prompt_info
++git_prompt_info:1> dirty=+git_prompt_info:1> parse_git_dirty
++parse_git_dirty:1> local STATUS
++parse_git_dirty:2> local -a FLAGS
++parse_git_dirty:3> FLAGS=( --porcelain ) 
++parse_git_dirty:4> [[+parse_git_dirty:4> __git_prompt_git config --get oh-my-zsh.hide-dirty
++__git_prompt_git:1> GIT_OPTIONAL_LOCKS=0 git config --get oh-my-zsh.hide-dirty
++parse_git_dirty:4> [[ '' != 1 ]]
++parse_git_dirty:5> [[ '' == true ]]
++parse_git_dirty:8> case  (git)
++parse_git_dirty:8> case  (*)
++parse_git_dirty:15> FLAGS+='--ignore-submodules=dirty' 
++parse_git_dirty:18> STATUS=+parse_git_dirty:18> STATUS=+parse_git_dirty:18> tail -n 1
++parse_git_dirty:18> STATUS='?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' 
++parse_git_dirty:20> [[ -n '?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' ]]
++parse_git_dirty:21> echo $'%{\C-[[34m%}) %{\C-[[33m%}✗'
++git_prompt_info:1> dirty=$'%{\C-[[34m%}) %{\C-[[33m%}✗' 
++git_prompt_info:2> __git_ps1 $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} '
++__git_ps1:3> local exit=0
++__git_ps1:4> local pcmode=no
++__git_ps1:5> local detached=no
++__git_ps1:6> local ps1pc_start='\u@\h:\w '
++__git_ps1:7> local ps1pc_end='\$ '
++__git_ps1:8> local printf_format=' (%s)'
++__git_ps1:10> case 1 (2 | 3)
++__git_ps1:10> case 1 (0 | 1)
++__git_ps1:20> printf_format=$'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' 
++__git_ps1:59> local ps1_expanded=yes
++__git_ps1:60> [ -z 5.8 ']'
++__git_ps1:60> [[ -o PROMPT_SUBST ]]
++__git_ps1:61> [ -z '' ']'
++__git_ps1:63> local repo_info rev_parse_exit_code
++__git_ps1:64> repo_info=+__git_ps1:64> git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --short HEAD
++__git_ps1:64> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' 
++__git_ps1:67> rev_parse_exit_code=0 
++__git_ps1:69> [ -z $'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' ']'
++__git_ps1:73> local short_sha=''
++__git_ps1:74> [ 0 '=' 0 ']'
++__git_ps1:75> short_sha=792c7c302 
++__git_ps1:76> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue' 
++__git_ps1:78> local inside_worktree=true
++__git_ps1:79> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse' 
++__git_ps1:80> local bare_repo=false
++__git_ps1:81> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse' 
++__git_ps1:82> local inside_gitdir=false
++__git_ps1:83> local g=/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git
++__git_ps1:85> [ true '=' true ']'
++__git_ps1:86> [ -n '' ']'
++__git_ps1:93> local sparse=''
++__git_ps1:94> [ -z '' ']'
++__git_ps1:95> [ -z '' ']'
++__git_ps1:96> git config --bool core.sparseCheckout
++__git_ps1:96> [ '' '=' true ']'
++__git_ps1:100> local r=''
++__git_ps1:101> local b=''
++__git_ps1:102> local step=''
++__git_ps1:103> local total=''
++__git_ps1:104> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-merge ']'
++__git_ps1:110> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-apply ']'
++__git_ps1:121> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/MERGE_HEAD ']'
++__git_ps1:123> __git_sequencer_status
++__git_sequencer_status:2> local todo
++__git_sequencer_status:3> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/CHERRY_PICK_HEAD
++__git_sequencer_status:7> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/REVERT_HEAD
++__git_sequencer_status:11> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo todo
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo
++__git_sequencer_status:24> return 1
++__git_ps1:125> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/BISECT_LOG ']'
++__git_ps1:129> [ -n '' ']'
++__git_ps1:131> [ -h /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD ']'
++__git_ps1:135> local head=''
++__git_ps1:136> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD head
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD
++__git_eread:2> IFS=$'\C-M\n' +__git_eread:2> read head
++__git_ps1:140> b=refs/heads/master 
++__git_ps1:141> [ 'ref: refs/heads/master' '=' refs/heads/master ']'
++__git_ps1:163> [ -n '' ']'
++__git_ps1:167> local w=''
++__git_ps1:168> local i=''
++__git_ps1:169> local s=''
++__git_ps1:170> local u=''
++__git_ps1:171> local h=''
++__git_ps1:172> local c=''
++__git_ps1:173> local p=''
++__git_ps1:174> local upstream=''
++__git_ps1:176> [ true '=' false ']'
++__git_ps1:182> [ true '=' true ']'
++__git_ps1:183> [ -n '' ']'
++__git_ps1:192> [ -n '' ']'
++__git_ps1:198> [ -n '' ']'
++__git_ps1:205> [ -n '' ']'
++__git_ps1:210> [ -n '' ']'
++__git_ps1:215> local z=' '
++__git_ps1:217> b=master 
++__git_ps1:218> [ no '=' yes ']'
++__git_ps1:224> [ -n '' ']'
++__git_ps1:230> local f=''
++__git_ps1:231> local gitstring=master
++__git_ps1:233> [ no '=' yes ']'
++__git_ps1:241> printf -- $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' master
++__git_ps1:244> return 0
+[0m[27m[24m[J[01;32m➜  [36mlib[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mc[0m[39m[1m[31mc[1m[31ml[0m[39m[1m[31mc[1m[31ml[1m[31me[0m[39m[1m[31me[1m[31ma[0m[39m[0m[32mc[0m[32ml[0m[32me[0m[32ma[32mr[39m[?1l>[?2004l
++omz_termsupport_preexec:1> [[ '' != true ]]
++omz_termsupport_preexec:3> emulate -L zsh
++omz_termsupport_preexec:4> setopt extended_glob
++omz_termsupport_preexec:7> local -a cmdargs
++omz_termsupport_preexec:8> cmdargs=( clear ) 
++omz_termsupport_preexec:10> [[ clear = fg ]]
++omz_termsupport_preexec:44> local CMD=clear
++omz_termsupport_preexec:45> local LINE=clear
++omz_termsupport_preexec:47> title clear '%100>...>clear%<<'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%100>...>clear%<<'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%100\>...\>clear%\<\<\a'
+]2;clear+title:13> print -Pn '\e]1;clear\a'
+]1;clear+_zsh_highlight_preexec_hook:2> typeset -g _ZSH_HIGHLIGHT_PRIOR_BUFFER=''
++_zsh_highlight_preexec_hook:3> typeset -gi _ZSH_HIGHLIGHT_PRIOR_CURSOR=''
++zsh:10> clear
+[H[2J[3J[1m[7m%[27m[1m[0m                                                                            +omz_termsupport_precmd:1> [[ '' != true ]]
++omz_termsupport_precmd:2> title '%15<..<%~%<<' '%n@%m:%~'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%n@%m:%~'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%n@%m:%~\a'
+]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib+title:13> print -Pn '\e]1;%15\<..\<%~%\<\<\a'
+]1;..ping-Cart/lib+_zsh_highlight_main__precmd_hook:3> setopt localoptions
++_zsh_highlight_main__precmd_hook:4> eval '[[ -o warnnestedvar ]]'
++(eval):1> [[ -o warnnestedvar ]]
++_zsh_highlight_main__precmd_hook:8> _zsh_highlight_main__command_type_cache=( ) 
++zsh:11> git_prompt_info
++git_prompt_info:1> dirty=+git_prompt_info:1> parse_git_dirty
++parse_git_dirty:1> local STATUS
++parse_git_dirty:2> local -a FLAGS
++parse_git_dirty:3> FLAGS=( --porcelain ) 
++parse_git_dirty:4> [[+parse_git_dirty:4> __git_prompt_git config --get oh-my-zsh.hide-dirty
++__git_prompt_git:1> GIT_OPTIONAL_LOCKS=0 git config --get oh-my-zsh.hide-dirty
++parse_git_dirty:4> [[ '' != 1 ]]
++parse_git_dirty:5> [[ '' == true ]]
++parse_git_dirty:8> case  (git)
++parse_git_dirty:8> case  (*)
++parse_git_dirty:15> FLAGS+='--ignore-submodules=dirty' 
++parse_git_dirty:18> STATUS=+parse_git_dirty:18> STATUS=+parse_git_dirty:18> tail -n 1
++parse_git_dirty:18> STATUS='?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' 
++parse_git_dirty:20> [[ -n '?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' ]]
++parse_git_dirty:21> echo $'%{\C-[[34m%}) %{\C-[[33m%}✗'
++git_prompt_info:1> dirty=$'%{\C-[[34m%}) %{\C-[[33m%}✗' 
++git_prompt_info:2> __git_ps1 $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} '
++__git_ps1:3> local exit=0
++__git_ps1:4> local pcmode=no
++__git_ps1:5> local detached=no
++__git_ps1:6> local ps1pc_start='\u@\h:\w '
++__git_ps1:7> local ps1pc_end='\$ '
++__git_ps1:8> local printf_format=' (%s)'
++__git_ps1:10> case 1 (2 | 3)
++__git_ps1:10> case 1 (0 | 1)
++__git_ps1:20> printf_format=$'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' 
++__git_ps1:59> local ps1_expanded=yes
++__git_ps1:60> [ -z 5.8 ']'
++__git_ps1:60> [[ -o PROMPT_SUBST ]]
++__git_ps1:61> [ -z '' ']'
++__git_ps1:63> local repo_info rev_parse_exit_code
++__git_ps1:64> repo_info=+__git_ps1:64> git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --short HEAD
++__git_ps1:64> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' 
++__git_ps1:67> rev_parse_exit_code=0 
++__git_ps1:69> [ -z $'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' ']'
++__git_ps1:73> local short_sha=''
++__git_ps1:74> [ 0 '=' 0 ']'
++__git_ps1:75> short_sha=792c7c302 
++__git_ps1:76> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue' 
++__git_ps1:78> local inside_worktree=true
++__git_ps1:79> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse' 
++__git_ps1:80> local bare_repo=false
++__git_ps1:81> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse' 
++__git_ps1:82> local inside_gitdir=false
++__git_ps1:83> local g=/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git
++__git_ps1:85> [ true '=' true ']'
++__git_ps1:86> [ -n '' ']'
++__git_ps1:93> local sparse=''
++__git_ps1:94> [ -z '' ']'
++__git_ps1:95> [ -z '' ']'
++__git_ps1:96> git config --bool core.sparseCheckout
++__git_ps1:96> [ '' '=' true ']'
++__git_ps1:100> local r=''
++__git_ps1:101> local b=''
++__git_ps1:102> local step=''
++__git_ps1:103> local total=''
++__git_ps1:104> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-merge ']'
++__git_ps1:110> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-apply ']'
++__git_ps1:121> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/MERGE_HEAD ']'
++__git_ps1:123> __git_sequencer_status
++__git_sequencer_status:2> local todo
++__git_sequencer_status:3> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/CHERRY_PICK_HEAD
++__git_sequencer_status:7> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/REVERT_HEAD
++__git_sequencer_status:11> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo todo
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo
++__git_sequencer_status:24> return 1
++__git_ps1:125> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/BISECT_LOG ']'
++__git_ps1:129> [ -n '' ']'
++__git_ps1:131> [ -h /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD ']'
++__git_ps1:135> local head=''
++__git_ps1:136> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD head
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD
++__git_eread:2> IFS=$'\C-M\n' +__git_eread:2> read head
++__git_ps1:140> b=refs/heads/master 
++__git_ps1:141> [ 'ref: refs/heads/master' '=' refs/heads/master ']'
++__git_ps1:163> [ -n '' ']'
++__git_ps1:167> local w=''
++__git_ps1:168> local i=''
++__git_ps1:169> local s=''
++__git_ps1:170> local u=''
++__git_ps1:171> local h=''
++__git_ps1:172> local c=''
++__git_ps1:173> local p=''
++__git_ps1:174> local upstream=''
++__git_ps1:176> [ true '=' false ']'
++__git_ps1:182> [ true '=' true ']'
++__git_ps1:183> [ -n '' ']'
++__git_ps1:192> [ -n '' ']'
++__git_ps1:198> [ -n '' ']'
++__git_ps1:205> [ -n '' ']'
++__git_ps1:210> [ -n '' ']'
++__git_ps1:215> local z=' '
++__git_ps1:217> b=master 
++__git_ps1:218> [ no '=' yes ']'
++__git_ps1:224> [ -n '' ']'
++__git_ps1:230> local f=''
++__git_ps1:231> local gitstring=master
++__git_ps1:233> [ no '=' yes ']'
++__git_ps1:241> printf -- $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' master
++__git_ps1:244> return 0
+[0m[27m[24m[J[01;32m➜  [36mlib[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                            +omz_termsupport_precmd:1> [[ '' != true ]]
++omz_termsupport_precmd:2> title '%15<..<%~%<<' '%n@%m:%~'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%n@%m:%~'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%n@%m:%~\a'
+]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib+title:13> print -Pn '\e]1;%15\<..\<%~%\<\<\a'
+]1;..ping-Cart/lib+_zsh_highlight_main__precmd_hook:3> setopt localoptions
++_zsh_highlight_main__precmd_hook:4> eval '[[ -o warnnestedvar ]]'
++(eval):1> [[ -o warnnestedvar ]]
++_zsh_highlight_main__precmd_hook:8> _zsh_highlight_main__command_type_cache=( ) 
++zsh:11> git_prompt_info
++git_prompt_info:1> dirty=+git_prompt_info:1> parse_git_dirty
++parse_git_dirty:1> local STATUS
++parse_git_dirty:2> local -a FLAGS
++parse_git_dirty:3> FLAGS=( --porcelain ) 
++parse_git_dirty:4> [[+parse_git_dirty:4> __git_prompt_git config --get oh-my-zsh.hide-dirty
++__git_prompt_git:1> GIT_OPTIONAL_LOCKS=0 git config --get oh-my-zsh.hide-dirty
++parse_git_dirty:4> [[ '' != 1 ]]
++parse_git_dirty:5> [[ '' == true ]]
++parse_git_dirty:8> case  (git)
++parse_git_dirty:8> case  (*)
++parse_git_dirty:15> FLAGS+='--ignore-submodules=dirty' 
++parse_git_dirty:18> STATUS=+parse_git_dirty:18> STATUS=+parse_git_dirty:18> tail -n 1
++parse_git_dirty:18> STATUS='?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' 
++parse_git_dirty:20> [[ -n '?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' ]]
++parse_git_dirty:21> echo $'%{\C-[[34m%}) %{\C-[[33m%}✗'
++git_prompt_info:1> dirty=$'%{\C-[[34m%}) %{\C-[[33m%}✗' 
++git_prompt_info:2> __git_ps1 $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} '
++__git_ps1:3> local exit=0
++__git_ps1:4> local pcmode=no
++__git_ps1:5> local detached=no
++__git_ps1:6> local ps1pc_start='\u@\h:\w '
++__git_ps1:7> local ps1pc_end='\$ '
++__git_ps1:8> local printf_format=' (%s)'
++__git_ps1:10> case 1 (2 | 3)
++__git_ps1:10> case 1 (0 | 1)
++__git_ps1:20> printf_format=$'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' 
++__git_ps1:59> local ps1_expanded=yes
++__git_ps1:60> [ -z 5.8 ']'
++__git_ps1:60> [[ -o PROMPT_SUBST ]]
++__git_ps1:61> [ -z '' ']'
++__git_ps1:63> local repo_info rev_parse_exit_code
++__git_ps1:64> repo_info=+__git_ps1:64> git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --short HEAD
++__git_ps1:64> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' 
++__git_ps1:67> rev_parse_exit_code=0 
++__git_ps1:69> [ -z $'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' ']'
++__git_ps1:73> local short_sha=''
++__git_ps1:74> [ 0 '=' 0 ']'
++__git_ps1:75> short_sha=792c7c302 
++__git_ps1:76> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue' 
++__git_ps1:78> local inside_worktree=true
++__git_ps1:79> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse' 
++__git_ps1:80> local bare_repo=false
++__git_ps1:81> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse' 
++__git_ps1:82> local inside_gitdir=false
++__git_ps1:83> local g=/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git
++__git_ps1:85> [ true '=' true ']'
++__git_ps1:86> [ -n '' ']'
++__git_ps1:93> local sparse=''
++__git_ps1:94> [ -z '' ']'
++__git_ps1:95> [ -z '' ']'
++__git_ps1:96> git config --bool core.sparseCheckout
++__git_ps1:96> [ '' '=' true ']'
++__git_ps1:100> local r=''
++__git_ps1:101> local b=''
++__git_ps1:102> local step=''
++__git_ps1:103> local total=''
++__git_ps1:104> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-merge ']'
++__git_ps1:110> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-apply ']'
++__git_ps1:121> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/MERGE_HEAD ']'
++__git_ps1:123> __git_sequencer_status
++__git_sequencer_status:2> local todo
++__git_sequencer_status:3> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/CHERRY_PICK_HEAD
++__git_sequencer_status:7> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/REVERT_HEAD
++__git_sequencer_status:11> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo todo
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo
++__git_sequencer_status:24> return 1
++__git_ps1:125> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/BISECT_LOG ']'
++__git_ps1:129> [ -n '' ']'
++__git_ps1:131> [ -h /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD ']'
++__git_ps1:135> local head=''
++__git_ps1:136> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD head
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD
++__git_eread:2> IFS=$'\C-M\n' +__git_eread:2> read head
++__git_ps1:140> b=refs/heads/master 
++__git_ps1:141> [ 'ref: refs/heads/master' '=' refs/heads/master ']'
++__git_ps1:163> [ -n '' ']'
++__git_ps1:167> local w=''
++__git_ps1:168> local i=''
++__git_ps1:169> local s=''
++__git_ps1:170> local u=''
++__git_ps1:171> local h=''
++__git_ps1:172> local c=''
++__git_ps1:173> local p=''
++__git_ps1:174> local upstream=''
++__git_ps1:176> [ true '=' false ']'
++__git_ps1:182> [ true '=' true ']'
++__git_ps1:183> [ -n '' ']'
++__git_ps1:192> [ -n '' ']'
++__git_ps1:198> [ -n '' ']'
++__git_ps1:205> [ -n '' ']'
++__git_ps1:210> [ -n '' ']'
++__git_ps1:215> local z=' '
++__git_ps1:217> b=master 
++__git_ps1:218> [ no '=' yes ']'
++__git_ps1:224> [ -n '' ']'
++__git_ps1:230> local f=''
++__git_ps1:231> local gitstring=master
++__git_ps1:233> [ no '=' yes ']'
++__git_ps1:241> printf -- $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' master
++__git_ps1:244> return 0
+[0m[27m[24m[J[01;31m➜  [36mlib[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                            +omz_termsupport_precmd:1> [[ '' != true ]]
++omz_termsupport_precmd:2> title '%15<..<%~%<<' '%n@%m:%~'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%n@%m:%~'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%n@%m:%~\a'
+]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib+title:13> print -Pn '\e]1;%15\<..\<%~%\<\<\a'
+]1;..ping-Cart/lib+_zsh_highlight_main__precmd_hook:3> setopt localoptions
++_zsh_highlight_main__precmd_hook:4> eval '[[ -o warnnestedvar ]]'
++(eval):1> [[ -o warnnestedvar ]]
++_zsh_highlight_main__precmd_hook:8> _zsh_highlight_main__command_type_cache=( ) 
++zsh:11> git_prompt_info
++git_prompt_info:1> dirty=+git_prompt_info:1> parse_git_dirty
++parse_git_dirty:1> local STATUS
++parse_git_dirty:2> local -a FLAGS
++parse_git_dirty:3> FLAGS=( --porcelain ) 
++parse_git_dirty:4> [[+parse_git_dirty:4> __git_prompt_git config --get oh-my-zsh.hide-dirty
++__git_prompt_git:1> GIT_OPTIONAL_LOCKS=0 git config --get oh-my-zsh.hide-dirty
++parse_git_dirty:4> [[ '' != 1 ]]
++parse_git_dirty:5> [[ '' == true ]]
++parse_git_dirty:8> case  (git)
++parse_git_dirty:8> case  (*)
++parse_git_dirty:15> FLAGS+='--ignore-submodules=dirty' 
++parse_git_dirty:18> STATUS=+parse_git_dirty:18> STATUS=+parse_git_dirty:18> tail -n 1
++parse_git_dirty:18> STATUS='?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' 
++parse_git_dirty:20> [[ -n '?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' ]]
++parse_git_dirty:21> echo $'%{\C-[[34m%}) %{\C-[[33m%}✗'
++git_prompt_info:1> dirty=$'%{\C-[[34m%}) %{\C-[[33m%}✗' 
++git_prompt_info:2> __git_ps1 $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} '
++__git_ps1:3> local exit=0
++__git_ps1:4> local pcmode=no
++__git_ps1:5> local detached=no
++__git_ps1:6> local ps1pc_start='\u@\h:\w '
++__git_ps1:7> local ps1pc_end='\$ '
++__git_ps1:8> local printf_format=' (%s)'
++__git_ps1:10> case 1 (2 | 3)
++__git_ps1:10> case 1 (0 | 1)
++__git_ps1:20> printf_format=$'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' 
++__git_ps1:59> local ps1_expanded=yes
++__git_ps1:60> [ -z 5.8 ']'
++__git_ps1:60> [[ -o PROMPT_SUBST ]]
++__git_ps1:61> [ -z '' ']'
++__git_ps1:63> local repo_info rev_parse_exit_code
++__git_ps1:64> repo_info=+__git_ps1:64> git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --short HEAD
++__git_ps1:64> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' 
++__git_ps1:67> rev_parse_exit_code=0 
++__git_ps1:69> [ -z $'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' ']'
++__git_ps1:73> local short_sha=''
++__git_ps1:74> [ 0 '=' 0 ']'
++__git_ps1:75> short_sha=792c7c302 
++__git_ps1:76> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue' 
++__git_ps1:78> local inside_worktree=true
++__git_ps1:79> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse' 
++__git_ps1:80> local bare_repo=false
++__git_ps1:81> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse' 
++__git_ps1:82> local inside_gitdir=false
++__git_ps1:83> local g=/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git
++__git_ps1:85> [ true '=' true ']'
++__git_ps1:86> [ -n '' ']'
++__git_ps1:93> local sparse=''
++__git_ps1:94> [ -z '' ']'
++__git_ps1:95> [ -z '' ']'
++__git_ps1:96> git config --bool core.sparseCheckout
++__git_ps1:96> [ '' '=' true ']'
++__git_ps1:100> local r=''
++__git_ps1:101> local b=''
++__git_ps1:102> local step=''
++__git_ps1:103> local total=''
++__git_ps1:104> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-merge ']'
++__git_ps1:110> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-apply ']'
++__git_ps1:121> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/MERGE_HEAD ']'
++__git_ps1:123> __git_sequencer_status
++__git_sequencer_status:2> local todo
++__git_sequencer_status:3> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/CHERRY_PICK_HEAD
++__git_sequencer_status:7> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/REVERT_HEAD
++__git_sequencer_status:11> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo todo
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo
++__git_sequencer_status:24> return 1
++__git_ps1:125> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/BISECT_LOG ']'
++__git_ps1:129> [ -n '' ']'
++__git_ps1:131> [ -h /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD ']'
++__git_ps1:135> local head=''
++__git_ps1:136> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD head
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD
++__git_eread:2> IFS=$'\C-M\n' +__git_eread:2> read head
++__git_ps1:140> b=refs/heads/master 
++__git_ps1:141> [ 'ref: refs/heads/master' '=' refs/heads/master ']'
++__git_ps1:163> [ -n '' ']'
++__git_ps1:167> local w=''
++__git_ps1:168> local i=''
++__git_ps1:169> local s=''
++__git_ps1:170> local u=''
++__git_ps1:171> local h=''
++__git_ps1:172> local c=''
++__git_ps1:173> local p=''
++__git_ps1:174> local upstream=''
++__git_ps1:176> [ true '=' false ']'
++__git_ps1:182> [ true '=' true ']'
++__git_ps1:183> [ -n '' ']'
++__git_ps1:192> [ -n '' ']'
++__git_ps1:198> [ -n '' ']'
++__git_ps1:205> [ -n '' ']'
++__git_ps1:210> [ -n '' ']'
++__git_ps1:215> local z=' '
++__git_ps1:217> b=master 
++__git_ps1:218> [ no '=' yes ']'
++__git_ps1:224> [ -n '' ']'
++__git_ps1:230> local f=''
++__git_ps1:231> local gitstring=master
++__git_ps1:233> [ no '=' yes ']'
++__git_ps1:241> printf -- $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' master
++__git_ps1:244> return 0
+[0m[27m[24m[J[01;31m➜  [36mlib[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                            +omz_termsupport_precmd:1> [[ '' != true ]]
++omz_termsupport_precmd:2> title '%15<..<%~%<<' '%n@%m:%~'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%n@%m:%~'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%n@%m:%~\a'
+]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib+title:13> print -Pn '\e]1;%15\<..\<%~%\<\<\a'
+]1;..ping-Cart/lib+_zsh_highlight_main__precmd_hook:3> setopt localoptions
++_zsh_highlight_main__precmd_hook:4> eval '[[ -o warnnestedvar ]]'
++(eval):1> [[ -o warnnestedvar ]]
++_zsh_highlight_main__precmd_hook:8> _zsh_highlight_main__command_type_cache=( ) 
++zsh:11> git_prompt_info
++git_prompt_info:1> dirty=+git_prompt_info:1> parse_git_dirty
++parse_git_dirty:1> local STATUS
++parse_git_dirty:2> local -a FLAGS
++parse_git_dirty:3> FLAGS=( --porcelain ) 
++parse_git_dirty:4> [[+parse_git_dirty:4> __git_prompt_git config --get oh-my-zsh.hide-dirty
++__git_prompt_git:1> GIT_OPTIONAL_LOCKS=0 git config --get oh-my-zsh.hide-dirty
++parse_git_dirty:4> [[ '' != 1 ]]
++parse_git_dirty:5> [[ '' == true ]]
++parse_git_dirty:8> case  (git)
++parse_git_dirty:8> case  (*)
++parse_git_dirty:15> FLAGS+='--ignore-submodules=dirty' 
++parse_git_dirty:18> STATUS=+parse_git_dirty:18> STATUS=+parse_git_dirty:18> tail -n 1
++parse_git_dirty:18> STATUS='?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' 
++parse_git_dirty:20> [[ -n '?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' ]]
++parse_git_dirty:21> echo $'%{\C-[[34m%}) %{\C-[[33m%}✗'
++git_prompt_info:1> dirty=$'%{\C-[[34m%}) %{\C-[[33m%}✗' 
++git_prompt_info:2> __git_ps1 $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} '
++__git_ps1:3> local exit=0
++__git_ps1:4> local pcmode=no
++__git_ps1:5> local detached=no
++__git_ps1:6> local ps1pc_start='\u@\h:\w '
++__git_ps1:7> local ps1pc_end='\$ '
++__git_ps1:8> local printf_format=' (%s)'
++__git_ps1:10> case 1 (2 | 3)
++__git_ps1:10> case 1 (0 | 1)
++__git_ps1:20> printf_format=$'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' 
++__git_ps1:59> local ps1_expanded=yes
++__git_ps1:60> [ -z 5.8 ']'
++__git_ps1:60> [[ -o PROMPT_SUBST ]]
++__git_ps1:61> [ -z '' ']'
++__git_ps1:63> local repo_info rev_parse_exit_code
++__git_ps1:64> repo_info=+__git_ps1:64> git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --short HEAD
++__git_ps1:64> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' 
++__git_ps1:67> rev_parse_exit_code=0 
++__git_ps1:69> [ -z $'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue\n792c7c302' ']'
++__git_ps1:73> local short_sha=''
++__git_ps1:74> [ 0 '=' 0 ']'
++__git_ps1:75> short_sha=792c7c302 
++__git_ps1:76> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse\ntrue' 
++__git_ps1:78> local inside_worktree=true
++__git_ps1:79> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse\nfalse' 
++__git_ps1:80> local bare_repo=false
++__git_ps1:81> repo_info=$'/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git\nfalse' 
++__git_ps1:82> local inside_gitdir=false
++__git_ps1:83> local g=/home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git
++__git_ps1:85> [ true '=' true ']'
++__git_ps1:86> [ -n '' ']'
++__git_ps1:93> local sparse=''
++__git_ps1:94> [ -z '' ']'
++__git_ps1:95> [ -z '' ']'
++__git_ps1:96> git config --bool core.sparseCheckout
++__git_ps1:96> [ '' '=' true ']'
++__git_ps1:100> local r=''
++__git_ps1:101> local b=''
++__git_ps1:102> local step=''
++__git_ps1:103> local total=''
++__git_ps1:104> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-merge ']'
++__git_ps1:110> [ -d /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/rebase-apply ']'
++__git_ps1:121> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/MERGE_HEAD ']'
++__git_ps1:123> __git_sequencer_status
++__git_sequencer_status:2> local todo
++__git_sequencer_status:3> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/CHERRY_PICK_HEAD
++__git_sequencer_status:7> test -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/REVERT_HEAD
++__git_sequencer_status:11> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo todo
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/sequencer/todo
++__git_sequencer_status:24> return 1
++__git_ps1:125> [ -f /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/BISECT_LOG ']'
++__git_ps1:129> [ -n '' ']'
++__git_ps1:131> [ -h /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD ']'
++__git_ps1:135> local head=''
++__git_ps1:136> __git_eread /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD head
++__git_eread:2> test -r /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/.git/HEAD
++__git_eread:2> IFS=$'\C-M\n' +__git_eread:2> read head
++__git_ps1:140> b=refs/heads/master 
++__git_ps1:141> [ 'ref: refs/heads/master' '=' refs/heads/master ']'
++__git_ps1:163> [ -n '' ']'
++__git_ps1:167> local w=''
++__git_ps1:168> local i=''
++__git_ps1:169> local s=''
++__git_ps1:170> local u=''
++__git_ps1:171> local h=''
++__git_ps1:172> local c=''
++__git_ps1:173> local p=''
++__git_ps1:174> local upstream=''
++__git_ps1:176> [ true '=' false ']'
++__git_ps1:182> [ true '=' true ']'
++__git_ps1:183> [ -n '' ']'
++__git_ps1:192> [ -n '' ']'
++__git_ps1:198> [ -n '' ']'
++__git_ps1:205> [ -n '' ']'
++__git_ps1:210> [ -n '' ']'
++__git_ps1:215> local z=' '
++__git_ps1:217> b=master 
++__git_ps1:218> [ no '=' yes ']'
++__git_ps1:224> [ -n '' ']'
++__git_ps1:230> local f=''
++__git_ps1:231> local gitstring=master
++__git_ps1:233> [ no '=' yes ']'
++__git_ps1:241> printf -- $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' master
++__git_ps1:244> return 0
+[0m[27m[24m[J[01;31m➜  [36mlib[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                            +omz_termsupport_precmd:1> [[ '' != true ]]
++omz_termsupport_precmd:2> title '%15<..<%~%<<' '%n@%m:%~'
++title:1> setopt localoptions nopromptsubst
++title:4> [[ -n '' ]]
++title:8> : '%n@%m:%~'
++title:10> case xterm-256color (cygwin | xterm*)
++title:12> print -Pn '\e]2;%n@%m:%~\a'
+]2;pedropadilha@PFP-NotebookAcer:~/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib+title:13> print -Pn '\e]1;%15\<..\<%~%\<\<\a'
+]1;..ping-Cart/lib+_zsh_highlight_main__precmd_hook:3> setopt localoptions
++_zsh_highlight_main__precmd_hook:4> eval '[[ -o warnnestedvar ]]'
++(eval):1> [[ -o warnnestedvar ]]
++_zsh_highlight_main__precmd_hook:8> _zsh_highlight_main__command_type_cache=( ) 
++zsh:11> git_prompt_info
++git_prompt_info:1> dirty=+git_prompt_info:1> parse_git_dirty
++parse_git_dirty:1> local STATUS
++parse_git_dirty:2> local -a FLAGS
++parse_git_dirty:3> FLAGS=( --porcelain ) 
++parse_git_dirty:4> [[+parse_git_dirty:4> __git_prompt_git config --get oh-my-zsh.hide-dirty
++__git_prompt_git:1> GIT_OPTIONAL_LOCKS=0 git config --get oh-my-zsh.hide-dirty
++parse_git_dirty:4> [[ '' != 1 ]]
++parse_git_dirty:5> [[ '' == true ]]
++parse_git_dirty:8> case  (git)
++parse_git_dirty:8> case  (*)
++parse_git_dirty:15> FLAGS+='--ignore-submodules=dirty' 
++parse_git_dirty:18> STATUS=+parse_git_dirty:18> STATUS=+parse_git_dirty:18> tail -n 1
++parse_git_dirty:18> STATUS='?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' 
++parse_git_dirty:20> [[ -n '?? 01-Ruby/04-Hash-Symbols/Optional-03-Shopping-Cart/lib/typescript' ]]
++parse_git_dirty:21> echo $'%{\C-[[34m%}) %{\C-[[33m%}✗'
++git_prompt_info:1> dirty=$'%{\C-[[34m%}) %{\C-[[33m%}✗' 
++git_prompt_info:2> __git_ps1 $'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} '
++__git_ps1:3> local exit=0
++__git_ps1:4> local pcmode=no
++__git_ps1:5> local detached=no
++__git_ps1:6> local ps1pc_start='\u@\h:\w '
++__git_ps1:7> local ps1pc_end='\$ '
++__git_ps1:8> local printf_format=' (%s)'
++__git_ps1:10> case 1 (2 | 3)
++__git_ps1:10> case 1 (0 | 1)
++__git_ps1:20> printf_format=$'%%{\C-[[01;34m%%}git:(%%{\C-[[31m%%}%s%%{\C-[[34m%%}) %%{\C-[[33m%%}✗%%{\C-[[00m%%} ' 
++__git_ps1:59> local ps1_expanded=yes
++__git_ps1:60> [ -z 5.8 ']'
++__git_ps1:60> [[ -o PROMPT_SUBST ]]
++__git_ps1:61> [ -z '' ']'
++__git_ps1:63> local repo_info rev_parse_exit_code
++__git_ps1:64> repo_info=+__git_ps1:64> git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --short HEAD
++__git_ps1:64> repo_info=$'/home/pedropadilha/code/pedrofonseca

@@ -1,0 +1,32 @@
+
+[1mFrom:[0m /home/pedropadilha/code/pedrofonsecapadilha/fullstack-challenges/01-Ruby/06-Parsing/02-Numbers-and-Letters/lib/longest_word.rb:38 Object#run_game:
+
+    [1;34m12[0m: [32mdef[0m [1;34mrun_game[0m(attempt, grid, start_time, end_time)
+    [1;34m13[0m:   [1;34m# TODO: runs the game and return detailed hash of result (with `:score`, `:message` and `:time` keys)[0m
+    [1;34m14[0m:   time_taken = (end_time - start_time)
+    [1;34m15[0m: 
+    [1;34m16[0m:   score = [1;34m0[0m
+    [1;34m17[0m:   [32mcase[0m time_taken
+    [1;34m18[0m:   [32mwhen[0m time_taken < [1;34m10[0m.to_f
+    [1;34m19[0m:     score += [1;34m90[0m
+    [1;34m20[0m:   [32mwhen[0m time_taken > [1;34m10[0m.to_f && time_taken < [1;34m20[0m.to_f
+    [1;34m21[0m:     score += [1;34m75[0m
+    [1;34m22[0m:   [32mwhen[0m time_taken > [1;34m20[0m.to_f && time_taken < [1;34m30[0m.to_f
+    [1;34m23[0m:     score += [1;34m60[0m
+    [1;34m24[0m:   [32mwhen[0m time_taken > [1;34m30[0m.to_f && time_taken < [1;34m40[0m.to_f
+    [1;34m25[0m:     score += [1;34m45[0m
+    [1;34m26[0m:   [32mwhen[0m time_taken > [1;34m40[0m.to_f && time_taken < [1;34m50[0m.to_f
+    [1;34m27[0m:     score += [1;34m30[0m
+    [1;34m28[0m:   [32mwhen[0m time_taken > [1;34m50[0m.to_f && time_taken < [1;34m60[0m.to_f
+    [1;34m29[0m:     score += [1;34m15[0m
+    [1;34m30[0m:   [32mend[0m
+    [1;34m31[0m:   result = {
+    [1;34m32[0m: 
+    [1;34m33[0m:     [35mtime[0m: time_taken,
+    [1;34m34[0m:     [35mscore[0m: score,
+    [1;34m35[0m:     [35mmessage[0m: [31m[1;31m"[0m[31mWell Done![1;31m"[0m[31m[0m
+    [1;34m36[0m: 
+    [1;34m37[0m:   }
+ => [1;34m38[0m:   binding.pry
+    [1;34m39[0m: [32mend[0m
+

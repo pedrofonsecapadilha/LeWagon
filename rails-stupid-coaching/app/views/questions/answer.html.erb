@@ -1,0 +1,20 @@
+<div class="container-fluid">
+  <div class="row m-3">
+    <h1>Stupid Coaching</h1>
+
+    <div class="card mt-4">
+      <h5><%= @question%></h5>
+      <h5>-You</h5>
+    </div>
+
+    <div class="card mt-4">
+      <h5><%= @answer%></h5>
+      <h5>-Your coach</h5>
+    </div>
+
+    <div class="mt-4">
+      <%= link_to "Ask a new question", ask_path %>
+    </div>
+
+  </div>
+</div>

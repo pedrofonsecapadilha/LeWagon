@@ -1,0 +1,9 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/background.png");
+  background-position: center;
+  height: 450px;
+  color: whitesmoke;
+  padding: 60px 0px 30px 150px;
+  display: flex;
+  align-items: center;
+}

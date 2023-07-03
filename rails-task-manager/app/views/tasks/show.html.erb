@@ -1,0 +1,29 @@
+<div class="container">
+  <h2><%= @task.title %></h2>
+
+  <div class="card">
+    <div class="card-header">
+      <%= @task.details %>
+    </div>
+  </div>
+
+  <% if @task.completed == true %>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" checked>
+      <label class="form-check-label">
+        This task is completed
+      </label>
+    </div>
+  <% else %>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox">
+      <label class="form-check-label">
+        This task is not completed yet
+      </label>
+    </div>
+  <% end %>
+
+  <p>
+    <%= link_to 'Back to list', tasks_path %>
+  </p>
+</div>

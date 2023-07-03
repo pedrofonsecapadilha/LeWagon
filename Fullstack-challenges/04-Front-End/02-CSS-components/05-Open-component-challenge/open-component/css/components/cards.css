@@ -1,0 +1,53 @@
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.card {
+  height: 300px;
+  width: 200px;
+  border: 2.5px solid rgb(63, 144, 236);
+  border-radius: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.fa-solid.fa-check {
+  color: green;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.fa-solid.fa-xmark {
+  color: red;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.card-special {
+  height: 325px;
+  width: 225px;
+  background: linear-gradient(to right, #4091eddc, #4e98ecdc 50%, #61a0e9dc 75%);
+  border-radius: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-special > h3 {
+  color: white;
+}
+
+.card-special > h2 {
+  color: white;
+}
+
+.card-special > h4 {
+  color: white;
+}
+
+.card-special > h6 {
+  color: white;
+}

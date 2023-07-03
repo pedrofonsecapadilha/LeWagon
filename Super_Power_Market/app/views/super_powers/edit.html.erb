@@ -1,0 +1,17 @@
+<div class="container mt-2">
+<h3>Edit your ad</h3>
+  <%= simple_form_for @super_power do |f| %>
+    <%= f.error_notification %>
+
+    <div class="form-inputs">
+      <%= f.input :name %>
+      <%= f.input :description %>
+      <%= f.input :price %>
+      <%= f.input :photo, as: :file %>
+    </div>
+
+    <div class="form-actions">
+      <%= f.button :submit, "Edit", class: "btn btn-sm btn-danger" %>
+    </div>
+  <% end %>
+</div>

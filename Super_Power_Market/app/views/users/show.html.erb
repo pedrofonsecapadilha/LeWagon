@@ -1,0 +1,28 @@
+<div class="container mt-5">
+
+  <div class="mb-3 text-center">
+    <h3>YOUR PROFILE</h3>
+  </div>
+
+  <div class="text-center">
+    <% if @user.photo.attached? %>
+      <div class="p-2">
+        <%= cl_image_tag @user.photo.key, height: 200, width: 200, radius: :max,  crop: :fill %>
+      </div>
+    <% else %>
+      <div class="p-2">
+        <%= image_tag 'profile.png', height: 200, width: 200, radius: :max,  crop: :fill %>
+      </div>
+    <% end %>
+
+    <div class="m-3">
+      <h4><strong><%= @user.name %></strong></h4>
+    </div>
+
+    <h5><strong>Name:</strong> <%= @user.name %></h5>
+    <h5><strong>Email:</strong> <%= @user.email%></h5>
+
+    <% session["user_return_to"] = user_path(current_user) %>
+    <%= link_to 'Edit Profile', edit_user_registration_path, class: 'btn btn-danger mt-3' %>
+  </div>
+</div>

@@ -1,0 +1,61 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700");
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+/* Components */
+/* @import url("components/name_of_component.css"); */
+@import url("components/header.css");
+@import url("components/cards.css");
+@import url("components/button.css");
+
+body {
+  background-color: white;
+  margin: 50px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+
+.container {
+  background-color: whitesmoke;
+  height: 500px;
+  width: 800px;
+  padding: 50px 25px;
+}
+
+h1 {
+  color: black;
+  opacity: 0.70;
+  margin-block-start: 0em;
+  margin-block-end: 0.6em;
+  font-weight: normal;
+}
+
+h2 {
+  color: rgb(63, 144, 236);
+  opacity: 0.80;
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
+}
+
+h3 {
+  color: black;
+  opacity: 0.70;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+h4 {
+  color: black;
+  opacity: 0.70;
+  margin-block-start: 0.6em;
+  margin-block-end: 1.4em;
+  font-weight: bold;
+}
+
+h6 {
+  color: black;
+  opacity: 0.60;
+  font-size: 0.6em;
+  margin-block-start: 0.6em;
+  margin-block-end: 0.6em;
+  font-weight: bold;
+}

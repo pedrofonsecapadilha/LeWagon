@@ -1,0 +1,37 @@
+<%# NAVBAR %>
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <div class="container-fluid d-flex justify-content-between">
+    <%= link_to lists_path, class: "navbar-brand" do %>
+      <%= image_tag "video-player" %>
+    <% end %>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+          <li class="nav-item active fs-3">
+            <%= link_to "My lists", lists_path, class: "nav-link" %>
+          </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<%# FORMULÁRIO DE CADASTRO DE LIST %>
+<div class="container mt-3 mb-3 p-3 mb-2 bg-white text-dark">
+  <%= simple_form_for(@list) do |f| %>
+    <%= f.error_notification %>
+    <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+
+    <div class="form-inputs">
+      <%= f.input :name %>
+      <%= f.input :image, placeholder: "Put the URL of the desired image here !!!"%>
+    </div>
+
+    <div class="form-actions">
+      <div class="btn btn-success btn-sm"><%= f.button :submit %></div>
+    </div>
+  <% end %>
+</div>

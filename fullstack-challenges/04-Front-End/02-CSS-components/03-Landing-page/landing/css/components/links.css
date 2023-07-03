@@ -1,0 +1,9 @@
+.links {
+  text-align: center;
+}
+
+.links > a {
+  font-size: 30px;
+  color: #1EDD88;
+  padding: 0 10px;
+}

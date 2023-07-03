@@ -1,0 +1,109 @@
+<div class= "container mt-5">
+<div class="row">
+<div class="col-8 justify-content-center">
+  <div class= "titulo mb-3">
+    <h1><%= @super_power.name %></h1>
+  </div>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <% if @super_power.photo.attached? %>
+      <%= cl_image_tag @super_power.photo.key, height: 250, width: 250, crop: :fill %>
+    <% else %>
+    <img src="https://mrconfeccoes.com.br/wp-content/uploads/2018/03/default.jpg" alt="">
+    <% end %>
+    </div>
+</div>
+ <p class='mt-2 ml-5'><strong>Sold by: </strong> <%= @super_power.user.name%> </p>
+  <div class="card w-50 mt-3">
+  <div class="card-body">
+    <h5 class="card-title"><strong>Description:</strong></h5>
+    <p class="card-text"><%=@super_power.description%></p>
+  </div>
+</div>
+
+</div>
+<div class="card w-50 mt-3">
+  <div class="card-body">
+    <h5 class="card-title"><strong>To contact the Owner:</strong></h5>
+    <p class="card-text"><% @teste = @super_power.user_id%> <p><%= @users.find(@teste).email %></p></p>
+  </div>
+
+</div>
+
+<div class="card w-50 mt-3">
+  <div class="card-body">
+    <h5 class="card-title">Price: $<%= @super_power.price.to_s.gsub('.', ',') %>0</h5>
+  </div>
+</div>
+    <% if current_user %>
+      <% if current_user != @super_power.user %>
+        <%= link_to 'Buy', new_super_power_order_path(@super_power), class: 'btn  btn-danger m-2',  method: 'post' %>
+      <% end %>
+      <% if policy(@super_power).edit? %>
+        <%= link_to 'Edit', edit_super_power_path(@super_power), class: 'btn  btn-danger m-2' %>
+        <%= link_to 'Delete', @super_power, data: {'turbo-method': :delete, 'turbo-confirm': 'Are you sure?'}, class: 'btn  btn-danger m-2' %>
+      <% end %>
+    <% else %>
+      <% session["user_return_to"] = super_power_path(@super_power) %>
+      <%= link_to 'Buy', new_user_session_path, class: 'btn  btn-danger m-2'%>
+      <%= link_to 'Edit', new_user_session_path, class: 'btn  btn-danger m-2' %>
+      <%= link_to 'Delete', new_user_session_path, class: 'btn  btn-danger m-2' %>
+    <% end %>
+</div>
+<div class="col-4 mb-3">
+ <%= render "reviews/reviews" %>
+ <%= render "reviews/form" %>
+ </div>
+</div>
+ <br>
+<section style="background-color: #eee;">
+  <div class="container py-5">
+    <div class="row">
+    <h4> See Another Super Powers:</H4>
+    <%@related.each do |f|  %>
+      <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+      <%= link_to super_power_path(f), style:"text-decoration: none; color: black" do  %>
+        <div class="card">
+          <div class="d-flex justify-content-between">
+          </div>
+          <% if f.photo.attached? %>
+          <div class='card-img-top' style='background-image: url(<%= cl_image_path(f.photo.key) %>)'></div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+            </div>
+
+            <div class="d-flex justify-content-between">
+              <h5 class="mb-0"><%= f.name%></h5>
+              <h5 class="text-dark mb-0"> $<%= f.price.to_s.gsub('.', ',') %>0</h5>
+            </div>
+
+            <div class="d-flex justify-content-between mb-2">
+              <div class="ms-auto text-warning">
+            </div>
+            <% else %>
+          <div class="card-img-top" style="background-image: url(https://mrconfeccoes.com.br/wp-content/uploads/2018/03/default.jpg)"></div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+            </div>
+
+            <div class="d-flex justify-content-between">
+              <h5 class="mb-0"><%= f.name%></h5>
+              <h5 class="text-dark mb-0"> $<%= f.price %></h5>
+            </div>
+
+            <div class="d-flex justify-content-between mb-2">
+              <div class="ms-auto text-warning">
+            </div>
+            <% end %>
+            </div>
+          </div>
+        </div>
+        <%end%>
+      </div>
+      <%end%>
+    </div>
+  </div>
+</section>
